@@ -47,6 +47,11 @@ Laatst bijgewerkt: 22 november 2026.
 - Mockups: `old_win`, `new_win`, `redesign_vis`, `plan_vis`, scènes `scene1-4` op home.
 - **SEO** (onderaan build.py): `SEO_META` (titels/descriptions), `seo_block()` (canonical, Open Graph, JSON-LD), `finish()` (pre-render, `<main>`, lazy loading, skiplink, overgangsscherm), sitemap/robots/llms/CNAME.
 
+## Beheerscherm (Decap CMS)
+- `cms.py`: haalt alle teksten/foto's/graphics uit de gebouwde pagina's, sleutels op basis van de standaardtekst; past `content/` toe. `admin.py`: schrijft `/admin` (config, thema in huisstijl, Decap 3.18.0 zelf gehost in `vendor/decap`) en `/admin/demo` (proefversie).
+- `python build.py --init` vult `content/` aan met nieuwe velden. Nooit `content/` overschrijven. Zie `docs/BEHEER.md`.
+- Repository: github.com/TBrunenberg/tagent-website · publicatie via GitHub Actions naar GitHub Pages.
+
 ## Contactformulier
 - Stappen en validatie in `ken_logic` (build.py). Antwoorden: onderwerp(en), toelichting, doel, huidige website, naam, telefoon/e-mail (één van beide verplicht). Honeypot `botcheck`.
 - Verzending: Web3Forms (`https://api.web3forms.com/submit`) naar info@tagent.nl met `WEB3FORMS_KEY`. Zolang de sleutel leeg is: `mailto:` met ingevulde tekst.

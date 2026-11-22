@@ -36,3 +36,10 @@ Metingen (Lighthouse mobiel, lokaal): werkwijze 99/100/100/100, privacy 99/100/1
 |---|---|---|---|---|
 | Paginaovergang (techniek Massage Woudenberg, Tagent-stijl): Ink-scherm met logo + naam komt van boven, schuift na laden naar beneden weg; animaties nieuwe pagina starten daarna. Alleen bij interne navigatie; reduced-motion: uit; bfcache en vangnet na 4 s. | alle pagina's | build.py (head, tail, finish) | frames + positie-log per 100 ms, klikflow, directe bezoeken zonder scherm, regressie pixelvergelijking + formuliertest | akkoord gegeven (22-11) |
 | TAGENT_BRAND_GUIDELINES.md, TAGENT_PROJECT_CONTEXT.md, VOORTGANG.md | projectmap | docs/ | – | nee |
+
+## 2026-11-22 · Livegang en beheerscherm
+| Wat | Waar | Bestanden | Getest | Akkoord nodig |
+|---|---|---|---|---|
+| Repository TBrunenberg/tagent-website, publicatie via GitHub Actions naar GitHub Pages, custom domain tagent.nl | GitHub | .github/workflows/publiceren.yml, requirements.txt | live-check alle pagina's (200), 404 | DNS door Tygo |
+| Beheerscherm: alle teksten (ook in graphics), foto's met upload/alt/focuspunt, plaatsing van graphics, pagina's verbergen, contactgegevens centraal, SEO per pagina; thema in huisstijl; proefversie | /admin, /admin/demo | cms.py, admin.py, content/, vendor/decap | identiek-check (byte voor byte gelijk zonder wijzigingen), wijzigtest (slotwoord, statement, foto-upload + verkleinen, plaatsing, e-mail/telefoon, SEO, verborgen pagina), screenshots proefversie | login (DecapBridge) door Tygo |
+| docs/BEHEER.md, docs/handleiding-klant.md | docs/ | – | – | nee |

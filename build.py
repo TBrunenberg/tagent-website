@@ -14,9 +14,18 @@ ARR14 = ARR.replace('width="16" height="16"', 'width="14" height="14"')
 CHECK = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#FF6A2B" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex:none"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg>'
 
 LASTMOD = "2026-11-22"
-EMAIL = "info@tagent.nl"
-TEL = "+31 (0)6 1554 1022"
-TEL_HREF = "tel:+31615541022"
+import sys, re as _re0
+import cms
+_B = cms.bedrijf({"email": "info@tagent.nl", "telefoon": "+31 (0)6 1554 1022"})
+EMAIL = _B["email"]
+TEL = _B["telefoon"]
+_digits = _re0.sub(r"\D", "", TEL.replace("(0)", ""))
+TEL_HREF = "tel:+" + (_digits if not _digits.startswith("0") else "31" + _digits[1:])
+CONSTS = {"email": EMAIL, "telefoon": TEL}
+# Login van het beheerscherm (DecapBridge). Overnemen uit het DecapBridge-dashboard.
+DECAP_IDENTITY_URL = "https://auth.decapbridge.com/sites/VUL-IN-SITE-ID"
+DECAP_GATEWAY_URL = "https://gateway.decapbridge.com"
+DECAP_REPO = "TBrunenberg/tagent-website"
 WEB3FORMS_KEY = ""  # toegangssleutel van web3forms.com (gekoppeld aan info@tagent.nl); leeg = verzenden via e-mailprogramma
 MENU = [("index.html", "Home"), ("diensten.html", "Diensten"), ("werkwijze.html", "Werkwijze"),
         ("over-ons.html", "Over ons"), ("kennismaking.html", "Kennismaking")]
@@ -1065,15 +1074,43 @@ pages["404.html"] = head(f"{FULL} – Pagina niet gevonden", "Deze pagina bestaa
 </section>
 """ + footer() + tail(height=2000)
 
+FINISHED = {}
 for name, html in pages.items():
     html = finish(name, html)
     if name == "404.html":
         html = html.replace('<link rel="canonical" href="https://tagent.nl/404.html">\n', '').replace('<meta name="viewport"', '<meta name="robots" content="noindex">\n<meta name="viewport"', 1)
         html = html.replace('href="assets/', 'href="/assets/').replace('src="assets/', 'src="/assets/').replace('url(assets/', 'url(/assets/')
+    FINISHED[name] = html
+
+# ---------- beheerscherm: inhoud toepassen ----------
+if "--init" in sys.argv or not os.path.exists(os.path.join(cms.CONTENT, ".schema.json")):
+    cms.init(FINISHED, CONSTS, SEO_META)
+HIDDEN = cms.hidden_pages()
+for name, html in FINISHED.items():
+    if name in HIDDEN:
+        continue
+    html = cms.apply(name, html, CONSTS, HIDDEN)
     with open(f"{OUT}/{name}", "w", encoding="utf-8") as fh:
         fh.write(html)
+_up = os.path.join(ROOT, "assets", "img", "uploads")
+if os.path.isdir(_up):
+    shutil.copytree(_up, f"{OUT}/assets/img/uploads", dirs_exist_ok=True)
+    try:
+        from PIL import Image
+        for _f in os.listdir(f"{OUT}/assets/img/uploads"):
+            _pth = f"{OUT}/assets/img/uploads/{_f}"
+            if _f.lower().endswith((".jpg", ".jpeg", ".png", ".webp")):
+                _im = Image.open(_pth)
+                if _im.width > 2000:
+                    _im.resize((2000, round(_im.height * 2000 / _im.width)), Image.LANCZOS).save(_pth, quality=85, optimize=True)
+    except ImportError:
+        pass
 
-INDEX = ["index.html", "diensten.html", "werkwijze.html", "over-ons.html", "kennismaking.html", "privacy.html"]
+# ---------- beheerscherm: admin + proefversie ----------
+import admin as _admin
+_admin.write(OUT, SITE, DECAP_REPO, DECAP_IDENTITY_URL, DECAP_GATEWAY_URL)
+
+INDEX = [n for n in ["index.html", "diensten.html", "werkwijze.html", "over-ons.html", "kennismaking.html", "privacy.html"] if n not in HIDDEN]
 PRIO = {"index.html": "1.0", "diensten.html": "0.9", "werkwijze.html": "0.8", "over-ons.html": "0.7", "kennismaking.html": "0.8", "privacy.html": "0.3"}
 with open(f"{OUT}/sitemap.xml", "w", encoding="utf-8") as fh:
     fh.write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +

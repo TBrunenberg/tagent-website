@@ -1,0 +1,3897 @@
+{
+ "index.html": {
+  "s_e8842d26": {
+   "label": "Jouw website, maar dan beter.",
+   "fields": [
+    [
+     "i_4fbbdd07c0",
+     "img",
+     "Foto: hero.webp",
+     false
+    ],
+    [
+     "i_b8415d2f0c",
+     "img",
+     "Foto: hero.webp (2)",
+     false
+    ],
+    [
+     "p_887336f1cd",
+     "plaats",
+     "Graphic in de header 1",
+     false
+    ],
+    [
+     "t_cd9a96b33c",
+     "text",
+     "jouwbedrijf.nl",
+     true
+    ],
+    [
+     "t_6b82b8bb9c",
+     "text",
+     "Jouw zaak",
+     true
+    ],
+    [
+     "t_07df69c44a",
+     "text",
+     "Vers van de zaak.",
+     true
+    ],
+    [
+     "i_d1279fa8de",
+     "img",
+     "Foto: d1.webp",
+     false
+    ],
+    [
+     "t_0be9c4ce3b",
+     "text",
+     "Reserveer",
+     true
+    ],
+    [
+     "t_866db0c906",
+     "text",
+     "Bekijk menu",
+     true
+    ],
+    [
+     "t_3c7328770f",
+     "text",
+     "Nieuw ontwerp klaar",
+     false
+    ],
+    [
+     "t_cb70096c96",
+     "text",
+     "eerst zien, dan beslissen",
+     true
+    ],
+    [
+     "t_e7c5c6387c",
+     "text",
+     "Jouw website,",
+     true
+    ],
+    [
+     "t_7adb824757",
+     "text",
+     "maar dan beter.",
+     true
+    ],
+    [
+     "t_11bfa797d6",
+     "text",
+     "Websites voor ondernemers die strak ogen, snel laden en op…",
+     true
+    ],
+    [
+     "t_02738a872b",
+     "text",
+     "Plan een kennismaking",
+     false
+    ],
+    [
+     "t_2721dafe23",
+     "text",
+     "Zo werkt het",
+     true
+    ]
+   ]
+  },
+  "s_2eae1001": {
+   "label": "Sectie",
+   "fields": [
+    [
+     "t_991c4cde7c",
+     "text",
+     "Alles gaat mee. Behalve de verouderde uitstraling.",
+     true
+    ],
+    [
+     "t_fc90fa45e3",
+     "text",
+     "Alle benodigde pagina's, foto's en links verhuizen naar ee…",
+     true
+    ],
+    [
+     "t_8f4b8f71de",
+     "text",
+     "Restaurants",
+     true
+    ],
+    [
+     "t_67a0f32afe",
+     "text",
+     "Cafés",
+     true
+    ],
+    [
+     "t_1e59dbb240",
+     "text",
+     "Kapsalons",
+     true
+    ],
+    [
+     "t_5984ac0b44",
+     "text",
+     "Sportcentra",
+     true
+    ],
+    [
+     "t_e1aa975dfb",
+     "text",
+     "Praktijken",
+     true
+    ],
+    [
+     "t_9fba2791ca",
+     "text",
+     "Winkels",
+     true
+    ],
+    [
+     "t_66a1e6bf70",
+     "text",
+     "Hoveniers",
+     true
+    ],
+    [
+     "t_7a8bb8b7df",
+     "text",
+     "Bouwbedrijven",
+     true
+    ],
+    [
+     "t_eb7626695d",
+     "text",
+     "Verenigingen",
+     true
+    ],
+    [
+     "t_0b33d9989d",
+     "text",
+     "Massagesalons",
+     true
+    ],
+    [
+     "t_3f2aa5b2c3",
+     "text",
+     "Rijscholen",
+     true
+    ],
+    [
+     "t_10ff09391d",
+     "text",
+     "Fotografen",
+     true
+    ],
+    [
+     "t_625f81ba01",
+     "text",
+     "Een website is de eerste kennismaking met een bedrijf. Bij…",
+     true
+    ],
+    [
+     "t_08ca0fd611",
+     "text",
+     "Een",
+     true
+    ],
+    [
+     "t_ac9b0712d0",
+     "text",
+     "website",
+     true
+    ],
+    [
+     "t_db7acbbba5",
+     "text",
+     "is",
+     true
+    ],
+    [
+     "t_30c11882d5",
+     "text",
+     "de",
+     true
+    ],
+    [
+     "t_aedf266614",
+     "text",
+     "eerste",
+     true
+    ],
+    [
+     "t_4dd48a827d",
+     "text",
+     "kennismaking",
+     true
+    ],
+    [
+     "t_f3b6b5cadd",
+     "text",
+     "met",
+     true
+    ],
+    [
+     "t_cc1186bb26",
+     "text",
+     "een",
+     true
+    ],
+    [
+     "t_b31d9dd3f4",
+     "text",
+     "bedrijf.",
+     true
+    ],
+    [
+     "t_e7ccfb8af6",
+     "text",
+     "Bij",
+     true
+    ],
+    [
+     "t_e65023e98f",
+     "text",
+     "verouderde",
+     true
+    ],
+    [
+     "t_7288bd1b56",
+     "text",
+     "haakt",
+     true
+    ],
+    [
+     "t_7f4413211e",
+     "text",
+     "bezoeker",
+     true
+    ],
+    [
+     "t_c78e48059f",
+     "text",
+     "af",
+     true
+    ],
+    [
+     "t_2a03503f51",
+     "text",
+     "nog",
+     true
+    ],
+    [
+     "t_416bb3d2b9",
+     "text",
+     "vóór",
+     true
+    ],
+    [
+     "t_c62d14afe5",
+     "text",
+     "het",
+     true
+    ],
+    [
+     "t_156ffcd542",
+     "text",
+     "contact.",
+     true
+    ]
+   ]
+  },
+  "overig": {
+   "label": "Overige onderdelen",
+   "fields": [
+    [
+     "i_fa6af914c5",
+     "img",
+     "Foto: ember.webp",
+     false
+    ],
+    [
+     "t_86f0b4a0ca",
+     "text",
+     "Voor",
+     true
+    ],
+    [
+     "t_90b5964acd",
+     "text",
+     "oud.jouwbedrijf.nl",
+     true
+    ],
+    [
+     "t_77470f2240",
+     "text",
+     "Welkom op onze website!!",
+     true
+    ],
+    [
+     "t_8dfa21607b",
+     "text",
+     "Home",
+     true
+    ],
+    [
+     "t_c3fa86162e",
+     "text",
+     "Over ons",
+     true
+    ],
+    [
+     "t_b45584380b",
+     "text",
+     "Menu",
+     true
+    ],
+    [
+     "t_df07399480",
+     "text",
+     "Contact",
+     true
+    ],
+    [
+     "t_6941b574ac",
+     "text",
+     "Gastenboek",
+     true
+    ],
+    [
+     "t_5792ed0570",
+     "text",
+     "Nieuws",
+     true
+    ],
+    [
+     "t_e12ba4801d",
+     "text",
+     "Fotoalbum",
+     true
+    ],
+    [
+     "t_1436f6930b",
+     "text",
+     "Links",
+     true
+    ],
+    [
+     "t_3b1f57bfa5",
+     "text",
+     "Route",
+     true
+    ],
+    [
+     "t_89342a781f",
+     "text",
+     "Wij zijn al jaren uw adres voor ...",
+     true
+    ],
+    [
+     "t_d08162df23",
+     "text",
+     "Klik hier voor onze openingstijden. Bel voor een afspraak …",
+     true
+    ],
+    [
+     "t_aa2c5c6be9",
+     "text",
+     "foto.jpg",
+     true
+    ],
+    [
+     "t_78cfd337c9",
+     "text",
+     "Na",
+     true
+    ],
+    [
+     "t_cd9a96b33c",
+     "text",
+     "jouwbedrijf.nl",
+     true
+    ],
+    [
+     "t_6b82b8bb9c",
+     "text",
+     "Jouw zaak",
+     true
+    ],
+    [
+     "t_07df69c44a",
+     "text",
+     "Vers van de zaak.",
+     true
+    ],
+    [
+     "i_d039ba0740",
+     "img",
+     "Foto: ember.webp (2)",
+     false
+    ],
+    [
+     "t_0be9c4ce3b",
+     "text",
+     "Reserveer",
+     true
+    ],
+    [
+     "t_866db0c906",
+     "text",
+     "Bekijk menu",
+     true
+    ]
+   ]
+  },
+  "s_ebb70acd": {
+   "label": "Van eerste ontwerp tot eigen beheer.",
+   "fields": [
+    [
+     "t_46903dba95",
+     "text",
+     "Van eerste ontwerp tot eigen beheer.",
+     true
+    ],
+    [
+     "t_8e01cd3277",
+     "text",
+     "Een website die er goed uitziet, is pas het begin. Het moe…",
+     true
+    ],
+    [
+     "t_6948c9a12f",
+     "text",
+     "Bekijk alle diensten",
+     false
+    ],
+    [
+     "p_2f9edf7272",
+     "plaats",
+     "Graphic 1",
+     false
+    ],
+    [
+     "i_898e42ff89",
+     "img",
+     "Foto: d1.webp (2)",
+     false
+    ],
+    [
+     "t_cd9a96b33c",
+     "text",
+     "jouwbedrijf.nl",
+     true
+    ],
+    [
+     "t_1658a9b58e",
+     "text",
+     "huidige site",
+     true
+    ],
+    [
+     "t_8dfa21607b",
+     "text",
+     "Home",
+     true
+    ],
+    [
+     "t_c3fa86162e",
+     "text",
+     "Over ons",
+     true
+    ],
+    [
+     "t_c99d200a07",
+     "text",
+     "Menukaart",
+     true
+    ],
+    [
+     "t_7ecf84c498",
+     "text",
+     "Reserveren",
+     true
+    ],
+    [
+     "t_df07399480",
+     "text",
+     "Contact",
+     true
+    ],
+    [
+     "t_3e4ba37399",
+     "text",
+     "Privacy",
+     true
+    ],
+    [
+     "t_f6ba129c59",
+     "text",
+     "Nieuw ontwerp · 6 pagina's",
+     true
+    ],
+    [
+     "t_e7d5fdbbd1",
+     "text",
+     "teksten mee, indien gewenst",
+     true
+    ],
+    [
+     "t_20cb9a31b3",
+     "text",
+     "01",
+     true
+    ],
+    [
+     "t_7b8aff49a8",
+     "text",
+     "Ontwerp vanuit de huidige site",
+     true
+    ],
+    [
+     "t_0d99d673ec",
+     "text",
+     "Alle benodigde pagina's, knoppen en links gaan mee, net al…",
+     true
+    ],
+    [
+     "p_e09ed78fc0",
+     "plaats",
+     "Graphic 2",
+     false
+    ],
+    [
+     "i_df858c2ce9",
+     "img",
+     "Foto: d3.webp",
+     false
+    ],
+    [
+     "t_a97e71d3e8",
+     "text",
+     "ontwerp · versie 2",
+     true
+    ],
+    [
+     "t_6b82b8bb9c",
+     "text",
+     "Jouw zaak",
+     true
+    ],
+    [
+     "t_07df69c44a",
+     "text",
+     "Vers van de zaak.",
+     true
+    ],
+    [
+     "i_106a5e21b1",
+     "img",
+     "Foto: d3.webp (2)",
+     false
+    ],
+    [
+     "t_0be9c4ce3b",
+     "text",
+     "Reserveer",
+     true
+    ],
+    [
+     "t_866db0c906",
+     "text",
+     "Bekijk menu",
+     true
+    ],
+    [
+     "p_03840727d6",
+     "plaats",
+     "Bolletje 1",
+     false
+    ],
+    [
+     "t_3d3ff73e8b",
+     "text",
+     "1Foto groter?",
+     true
+    ],
+    [
+     "p_8e4034721a",
+     "plaats",
+     "Bolletje 2",
+     false
+    ],
+    [
+     "t_069dbfaea5",
+     "text",
+     "2Openingstijden erbij",
+     true
+    ],
+    [
+     "t_f5f61dd60d",
+     "text",
+     "Akkoord",
+     true
+    ],
+    [
+     "t_5163aff2de",
+     "text",
+     "Ontwerp akkoord",
+     false
+    ],
+    [
+     "t_811622df58",
+     "text",
+     "02",
+     true
+    ],
+    [
+     "t_ffc865998d",
+     "text",
+     "Samen doorlopen, tot alles klopt",
+     true
+    ],
+    [
+     "t_a5d9d18a01",
+     "text",
+     "Het ontwerp wordt samen doorgelopen en bijgeschaafd. Pas a…",
+     true
+    ],
+    [
+     "p_319f69655e",
+     "plaats",
+     "Graphic 3",
+     false
+    ],
+    [
+     "i_98dbf8abc4",
+     "img",
+     "Foto: d4.webp",
+     false
+    ],
+    [
+     "t_9633d80ede",
+     "text",
+     "jouwbedrijf.nl/admin",
+     true
+    ],
+    [
+     "t_16a3304257",
+     "text",
+     "Pagina's · zichtbaar",
+     true
+    ],
+    [
+     "t_95484fe5ea",
+     "text",
+     "Zomeractie",
+     true
+    ],
+    [
+     "t_827833fe53",
+     "text",
+     "Vacatures",
+     true
+    ],
+    [
+     "t_ebf55d6f2f",
+     "text",
+     "Openingstijden",
+     true
+    ],
+    [
+     "t_3a861c276f",
+     "text",
+     "Di t/m za 11–22",
+     true
+    ],
+    [
+     "t_9c2b6d9047",
+     "text",
+     "Di t/m zo 11–23",
+     true
+    ],
+    [
+     "t_0955874bbb",
+     "text",
+     "Foto bovenaan",
+     true
+    ],
+    [
+     "i_fd60d31fe4",
+     "img",
+     "Foto: ember.webp (3)",
+     false
+    ],
+    [
+     "t_0364a9b27a",
+     "text",
+     "terras-zomer.jpg",
+     true
+    ],
+    [
+     "t_35e2831c75",
+     "text",
+     "Publiceren",
+     true
+    ],
+    [
+     "t_098b1d45d0",
+     "text",
+     "Live op jouwbedrijf.nl",
+     false
+    ],
+    [
+     "t_4eca75541e",
+     "text",
+     "zelf aanpassen, de lay-out blijft strak",
+     true
+    ],
+    [
+     "t_ca25b61523",
+     "text",
+     "03",
+     true
+    ],
+    [
+     "t_f8345b3365",
+     "text",
+     "Zelf aanpassen via een beheerscherm",
+     true
+    ],
+    [
+     "t_41b08d78db",
+     "text",
+     "Teksten, foto's en openingstijden zelf bijwerken, binnen d…",
+     true
+    ],
+    [
+     "t_265f58d65e",
+     "text",
+     "Meer over het beheerscherm",
+     false
+    ],
+    [
+     "p_95b9eccf07",
+     "plaats",
+     "Graphic 4",
+     false
+    ],
+    [
+     "i_24b3f947f9",
+     "img",
+     "Foto: d2.webp",
+     false
+    ],
+    [
+     "i_33814544b8",
+     "img",
+     "Foto: d2.webp (2)",
+     false
+    ],
+    [
+     "i_cab6fd56bd",
+     "img",
+     "Foto: d2.webp (3)",
+     false
+    ],
+    [
+     "t_b45584380b",
+     "text",
+     "Menu",
+     true
+    ],
+    [
+     "t_c559f3c7fa",
+     "text",
+     "op elk scherm even strak",
+     true
+    ],
+    [
+     "t_48b56e14f1",
+     "text",
+     "04",
+     true
+    ],
+    [
+     "t_a669d9aab1",
+     "text",
+     "Op elk scherm even strak",
+     true
+    ],
+    [
+     "t_b5a95259e6",
+     "text",
+     "Ontworpen voor telefoon, tablet en laptop. Vloeiende beweg…",
+     true
+    ]
+   ]
+  },
+  "s_86d92bb9": {
+   "label": "De techniek, ook geregeld.",
+   "fields": [
+    [
+     "i_4b901ab210",
+     "img",
+     "Foto: d4.webp (2)",
+     false
+    ],
+    [
+     "t_5dc3ee1f8f",
+     "text",
+     "De techniek, ook geregeld.",
+     true
+    ],
+    [
+     "t_e5bf282aa7",
+     "text",
+     "Domein, livegang, reserveringssysteem en de vindbaarheid v…",
+     true
+    ],
+    [
+     "p_e768ad7e90",
+     "plaats",
+     "Graphic 1",
+     false
+    ],
+    [
+     "t_275d27ff80",
+     "text",
+     "Jouw domein",
+     false
+    ],
+    [
+     "t_b357260baa",
+     "text",
+     "D",
+     true
+    ],
+    [
+     "t_c3e741372e",
+     "text",
+     "DNS",
+     false
+    ],
+    [
+     "t_551860d84d",
+     "text",
+     "HTTPS",
+     false
+    ],
+    [
+     "t_edc2381664",
+     "text",
+     "H",
+     true
+    ],
+    [
+     "t_ad6b912b35",
+     "text",
+     "E-mail blijft",
+     false
+    ],
+    [
+     "t_8bceb890de",
+     "text",
+     "E",
+     true
+    ],
+    [
+     "t_0d91981865",
+     "text",
+     "Domein",
+     false
+    ],
+    [
+     "t_c6b8b4c55c",
+     "text",
+     "Online zetten",
+     false
+    ],
+    [
+     "t_aaa8905827",
+     "text",
+     "O",
+     true
+    ],
+    [
+     "t_f79e4e217d",
+     "text",
+     "Beheerscherm",
+     false
+    ],
+    [
+     "t_38ed8dc0d2",
+     "text",
+     "B",
+     true
+    ],
+    [
+     "t_8d1653863e",
+     "text",
+     "Veilige login",
+     false
+    ],
+    [
+     "t_358ddcad76",
+     "text",
+     "V",
+     true
+    ],
+    [
+     "t_6b788531d2",
+     "text",
+     "Eigen lettertypes",
+     false
+    ],
+    [
+     "t_786a6364d4",
+     "text",
+     "L",
+     true
+    ],
+    [
+     "t_9b4482511c",
+     "text",
+     "Livegang",
+     false
+    ],
+    [
+     "t_7ecf84c498",
+     "text",
+     "Reserveren",
+     false
+    ],
+    [
+     "t_5f31f0bd6c",
+     "text",
+     "R",
+     true
+    ],
+    [
+     "t_83ae977b16",
+     "text",
+     "Google Maps",
+     false
+    ],
+    [
+     "t_2897da321d",
+     "text",
+     "G",
+     true
+    ],
+    [
+     "t_1a15b31407",
+     "text",
+     "Agenda",
+     false
+    ],
+    [
+     "t_734d6d7949",
+     "text",
+     "A",
+     true
+    ],
+    [
+     "t_f6e99e37f5",
+     "text",
+     "Social media",
+     false
+    ],
+    [
+     "t_3b837323c2",
+     "text",
+     "S",
+     true
+    ],
+    [
+     "t_f6866eeff1",
+     "text",
+     "Koppelingen",
+     false
+    ],
+    [
+     "t_afa8335f95",
+     "text",
+     "K",
+     true
+    ],
+    [
+     "t_7909786819",
+     "text",
+     "Oude adressen",
+     false
+    ],
+    [
+     "t_9bd62012db",
+     "text",
+     "Doorverwijzingen",
+     false
+    ],
+    [
+     "t_5752bacf7b",
+     "text",
+     "Search Console",
+     false
+    ],
+    [
+     "t_95d2927b26",
+     "text",
+     "Paginatitels",
+     false
+    ],
+    [
+     "t_bed888f86d",
+     "text",
+     "P",
+     true
+    ],
+    [
+     "t_863522e801",
+     "text",
+     "Vindbaarheid",
+     false
+    ],
+    [
+     "t_7bc02f0637",
+     "text",
+     "Jouw site",
+     true
+    ]
+   ]
+  },
+  "s_135184b5": {
+   "label": "Voor elke zaak.",
+   "fields": [
+    [
+     "t_91ee1b2bc4",
+     "text",
+     "Voor elke zaak.",
+     true
+    ],
+    [
+     "t_3a315e2940",
+     "text",
+     "Bekijk de diensten",
+     false
+    ],
+    [
+     "i_407b7ae610",
+     "img",
+     "Foto: d3.webp (3)",
+     false
+    ],
+    [
+     "t_b27cc896e6",
+     "text",
+     "Voorgerechten",
+     true
+    ],
+    [
+     "t_940f8d4d9c",
+     "text",
+     "bekijk",
+     true
+    ],
+    [
+     "t_34fccf8bb7",
+     "text",
+     "Hoofdgerechten",
+     true
+    ],
+    [
+     "t_1af2e7bd56",
+     "text",
+     "Tafel reserveren",
+     true
+    ],
+    [
+     "t_55086952c7",
+     "text",
+     "vanavond",
+     true
+    ],
+    [
+     "t_20cb9a31b3",
+     "text",
+     "01",
+     true
+    ],
+    [
+     "t_5c204d10ec",
+     "text",
+     "Horeca",
+     true
+    ],
+    [
+     "t_0db54ff4dd",
+     "text",
+     "Menukaart en reserveren op één plek, ook op de telefoon.",
+     true
+    ],
+    [
+     "i_6bdc07a74c",
+     "img",
+     "Foto: d4.webp (3)",
+     false
+    ],
+    [
+     "t_0fe44ce062",
+     "text",
+     "Zaal 1",
+     true
+    ],
+    [
+     "t_6bb850f1c2",
+     "text",
+     "bezet",
+     true
+    ],
+    [
+     "t_9485d8b853",
+     "text",
+     "Zaal 2",
+     true
+    ],
+    [
+     "t_d35d4d578b",
+     "text",
+     "vrij",
+     true
+    ],
+    [
+     "t_1a15b31407",
+     "text",
+     "Agenda",
+     true
+    ],
+    [
+     "t_65b09692e8",
+     "text",
+     "deze week",
+     true
+    ],
+    [
+     "t_811622df58",
+     "text",
+     "02",
+     true
+    ],
+    [
+     "t_07ba2c939f",
+     "text",
+     "Sport & vrije tijd",
+     true
+    ],
+    [
+     "t_a54d13a239",
+     "text",
+     "Zalen, activiteiten en agenda overzichtelijk bij elkaar.",
+     true
+    ],
+    [
+     "i_30075220b2",
+     "img",
+     "Foto: d6.webp",
+     false
+    ],
+    [
+     "t_693450a79e",
+     "text",
+     "Behandelingen",
+     true
+    ],
+    [
+     "t_08d79cb56b",
+     "text",
+     "Tarieven",
+     true
+    ],
+    [
+     "t_113a999ac0",
+     "text",
+     "Afspraak maken",
+     true
+    ],
+    [
+     "t_1d332acc8a",
+     "text",
+     "online",
+     true
+    ],
+    [
+     "t_ca25b61523",
+     "text",
+     "03",
+     true
+    ],
+    [
+     "t_dd4b546663",
+     "text",
+     "Praktijken & wellness",
+     true
+    ],
+    [
+     "t_fb265403c7",
+     "text",
+     "Behandelingen helder uitgelegd, met een knop om te boeken.",
+     true
+    ],
+    [
+     "i_887ad60b74",
+     "img",
+     "Foto: d1.webp (3)",
+     false
+    ],
+    [
+     "t_f78f9d263b",
+     "text",
+     "Maandag",
+     true
+    ],
+    [
+     "t_6a5e4de978",
+     "text",
+     "gesloten",
+     true
+    ],
+    [
+     "t_b375004632",
+     "text",
+     "Di t/m za",
+     true
+    ],
+    [
+     "t_a3c1481781",
+     "text",
+     "open",
+     true
+    ],
+    [
+     "t_43242fcf7e",
+     "text",
+     "Vandaag",
+     true
+    ],
+    [
+     "t_48b56e14f1",
+     "text",
+     "04",
+     true
+    ],
+    [
+     "t_9fba2791ca",
+     "text",
+     "Winkels",
+     true
+    ],
+    [
+     "t_cb48639e57",
+     "text",
+     "Openingstijden, assortiment en route altijd actueel.",
+     true
+    ],
+    [
+     "i_f71e77f58e",
+     "img",
+     "Foto: d5.webp",
+     false
+    ],
+    [
+     "t_c5c4bdbffc",
+     "text",
+     "Offerte aanvragen",
+     true
+    ],
+    [
+     "t_1f5cde204c",
+     "text",
+     "Versturen",
+     true
+    ],
+    [
+     "t_fee7effa8b",
+     "text",
+     "05",
+     true
+    ],
+    [
+     "t_df68856bf2",
+     "text",
+     "Dienstverleners",
+     true
+    ],
+    [
+     "t_1d72e0c0a2",
+     "text",
+     "Diensten, werkgebied en een offerte in twee klikken.",
+     true
+    ],
+    [
+     "i_43693d4055",
+     "img",
+     "Foto: d2.webp (4)",
+     false
+    ],
+    [
+     "t_ee4dcf4838",
+     "text",
+     "Nieuw bericht",
+     true
+    ],
+    [
+     "t_a1b023928b",
+     "text",
+     "vandaag",
+     true
+    ],
+    [
+     "t_3971433128",
+     "text",
+     "Ledenvergadering",
+     true
+    ],
+    [
+     "t_c0cc1c43b4",
+     "text",
+     "agenda",
+     true
+    ],
+    [
+     "t_c01cf32ef2",
+     "text",
+     "Toernooi",
+     true
+    ],
+    [
+     "t_928eff738d",
+     "text",
+     "06",
+     true
+    ],
+    [
+     "t_eb7626695d",
+     "text",
+     "Verenigingen",
+     true
+    ],
+    [
+     "t_afad6978b6",
+     "text",
+     "Nieuws en agenda, zelf bij te houden via het beheerscherm.",
+     true
+    ]
+   ]
+  },
+  "s_8cdd86aa": {
+   "label": "In vijf stappen online.",
+   "fields": [
+    [
+     "t_73566804d4",
+     "text",
+     "In vijf stappen online.",
+     true
+    ],
+    [
+     "t_bae48365fe",
+     "text",
+     "Lees de werkwijze",
+     false
+    ],
+    [
+     "t_20cb9a31b3",
+     "text",
+     "01",
+     true
+    ],
+    [
+     "t_901896c6e4",
+     "text",
+     "Kennismaking",
+     true
+    ],
+    [
+     "t_b2960d1b5a",
+     "text",
+     "Het bedrijf, de huidige site en de wensen op een rij.",
+     true
+    ],
+    [
+     "t_811622df58",
+     "text",
+     "02",
+     true
+    ],
+    [
+     "t_f8be6ad196",
+     "text",
+     "Ontwerp",
+     true
+    ],
+    [
+     "t_d69f0d4e15",
+     "text",
+     "Een ontwerp dat past bij het merk, op basis van wat er al …",
+     true
+    ],
+    [
+     "t_ca25b61523",
+     "text",
+     "03",
+     true
+    ],
+    [
+     "t_d42e6294d1",
+     "text",
+     "Samen doorlopen",
+     true
+    ],
+    [
+     "t_f10895d98a",
+     "text",
+     "Samen bijschaven tot alles klopt.",
+     true
+    ],
+    [
+     "t_48b56e14f1",
+     "text",
+     "04",
+     true
+    ],
+    [
+     "t_9b4482511c",
+     "text",
+     "Livegang",
+     true
+    ],
+    [
+     "t_ff15d0ff9e",
+     "text",
+     "Online op het eigen domein, met een eigen beheerscherm.",
+     true
+    ],
+    [
+     "t_fee7effa8b",
+     "text",
+     "05",
+     true
+    ],
+    [
+     "t_2e81790768",
+     "text",
+     "Beheer",
+     true
+    ],
+    [
+     "t_934afcefd3",
+     "text",
+     "Optioneel: per maand of per jaar. Zonder beheer kan ook.",
+     true
+    ]
+   ]
+  },
+  "s_fc779bfb": {
+   "label": "Afspraken die kloppen.",
+   "fields": [
+    [
+     "t_8759940ffd",
+     "text",
+     "Afspraken die kloppen.",
+     true
+    ],
+    [
+     "t_41d53b4e0c",
+     "text",
+     "Veelgestelde vragen",
+     false
+    ],
+    [
+     "t_20cb9a31b3",
+     "text",
+     "01",
+     true
+    ],
+    [
+     "t_37426ecf86",
+     "text",
+     "Domein op eigen naam",
+     true
+    ],
+    [
+     "t_7bee5ba605",
+     "text",
+     "Het domein blijft van de eigenaar.",
+     true
+    ],
+    [
+     "t_811622df58",
+     "text",
+     "02",
+     true
+    ],
+    [
+     "t_6d83413327",
+     "text",
+     "Eerst zien",
+     true
+    ],
+    [
+     "t_165ae9ddbc",
+     "text",
+     "Een eerste ontwerp op maat, gemaakt voor uw zaak. Bekijken…",
+     true
+    ],
+    [
+     "t_ca25b61523",
+     "text",
+     "03",
+     true
+    ],
+    [
+     "t_5eca816e7c",
+     "text",
+     "Veilig inloggen",
+     true
+    ],
+    [
+     "t_107c5c94df",
+     "text",
+     "Met eigen e-mailadres en wachtwoord, via een vaste loginpa…",
+     true
+    ],
+    [
+     "t_48b56e14f1",
+     "text",
+     "04",
+     true
+    ],
+    [
+     "t_8077efaaaf",
+     "text",
+     "Overdracht bij opzegging",
+     true
+    ],
+    [
+     "t_23bbad1ce9",
+     "text",
+     "Stoppen met beheer? Dan wordt de site overgedragen.",
+     true
+    ],
+    [
+     "t_fee7effa8b",
+     "text",
+     "05",
+     true
+    ],
+    [
+     "t_5c07443920",
+     "text",
+     "Afspraken op papier",
+     true
+    ],
+    [
+     "t_d4800cb83b",
+     "text",
+     "Duidelijke afspraken over kosten en beheer, vastgelegd in …",
+     true
+    ]
+   ]
+  },
+  "s_01d23e8c": {
+   "label": "Begin met één gesprek.",
+   "fields": [
+    [
+     "i_9be6dbe92c",
+     "img",
+     "Foto: cta.webp",
+     false
+    ],
+    [
+     "i_1adec45f8e",
+     "img",
+     "Foto: cta.webp (2)",
+     false
+    ],
+    [
+     "t_3c3a54d738",
+     "text",
+     "Begin met één gesprek.",
+     true
+    ],
+    [
+     "t_21beaf7dc0",
+     "text",
+     "Een korte kennismaking, met de link van de huidige site er…",
+     true
+    ],
+    [
+     "t_02738a872b",
+     "text",
+     "Plan een kennismaking",
+     false
+    ],
+    [
+     "t_b6f6950c14",
+     "text",
+     "Bekijk de werkwijze",
+     true
+    ]
+   ]
+  }
+ },
+ "diensten.html": {
+  "s_90a5967c": {
+   "label": "Alles voor een sitedie werkt.",
+   "fields": [
+    [
+     "i_5be0175cc8",
+     "img",
+     "Foto: d1.webp",
+     false
+    ],
+    [
+     "i_c467a5239f",
+     "img",
+     "Foto: d1.webp (2)",
+     false
+    ],
+    [
+     "p_072c2ca93c",
+     "plaats",
+     "Graphic in de header 1",
+     false
+    ],
+    [
+     "t_98fb49e6d3",
+     "text",
+     "Diensten · van ontwerp tot beheer",
+     true
+    ],
+    [
+     "t_3bd5a3defb",
+     "text",
+     "Nieuwe website",
+     true
+    ],
+    [
+     "t_5d6a1fbaa3",
+     "text",
+     "ontwerp",
+     true
+    ],
+    [
+     "t_3f0e3413e1",
+     "text",
+     "Redesign",
+     true
+    ],
+    [
+     "t_815122f4ee",
+     "text",
+     "alles mee",
+     true
+    ],
+    [
+     "t_9c1ff09b71",
+     "text",
+     "Beheerscherm",
+     true
+    ],
+    [
+     "t_7af2b50c2b",
+     "text",
+     "zelf aanpassen",
+     true
+    ],
+    [
+     "t_8d64cec32d",
+     "text",
+     "Livegang",
+     true
+    ],
+    [
+     "t_b37dcfe061",
+     "text",
+     "eigen domein",
+     true
+    ],
+    [
+     "t_246b2c0eeb",
+     "text",
+     "Beheer",
+     true
+    ],
+    [
+     "t_ef95934613",
+     "text",
+     "per maand of jaar",
+     true
+    ],
+    [
+     "t_8c893e2243",
+     "text",
+     "Alles voor een site",
+     true
+    ],
+    [
+     "t_58f9f9cf90",
+     "text",
+     "die werkt.",
+     true
+    ],
+    [
+     "t_c565ae439e",
+     "text",
+     "Van nieuw ontwerp tot livegang op het eigen domein. Daarna…",
+     true
+    ]
+   ]
+  },
+  "s_cf5a98ba": {
+   "label": "Een nieuwe website.",
+   "fields": [
+    [
+     "t_3f23a8ef04",
+     "text",
+     "Een nieuwe website.",
+     true
+    ],
+    [
+     "t_d1cc5d0f40",
+     "text",
+     "Nog geen site, of één die niet meer past? Een ontwerp vana…",
+     true
+    ],
+    [
+     "t_483881e168",
+     "text",
+     "Ontwerp in de eigen huisstijl",
+     true
+    ],
+    [
+     "t_aae5e31c90",
+     "text",
+     "Eigen teksten en foto's, geen stockbeeld",
+     true
+    ],
+    [
+     "t_7223503062",
+     "text",
+     "Werkt op telefoon, tablet en laptop",
+     true
+    ],
+    [
+     "p_2e501ff38c",
+     "plaats",
+     "Graphic 1",
+     false
+    ],
+    [
+     "i_327889f80b",
+     "img",
+     "Foto: d5.webp",
+     false
+    ],
+    [
+     "t_025db6ee78",
+     "text",
+     "nieuw.jouwbedrijf.nl",
+     true
+    ],
+    [
+     "t_90b12de709",
+     "text",
+     "Jouw zaak",
+     true
+    ],
+    [
+     "t_2ea8f07738",
+     "text",
+     "Een eerste indruk.",
+     true
+    ],
+    [
+     "i_0d9de5a568",
+     "img",
+     "Foto: d5.webp (2)",
+     false
+    ],
+    [
+     "t_63b7a6a964",
+     "text",
+     "Neem contact op",
+     true
+    ],
+    [
+     "t_ce2b0feaa4",
+     "text",
+     "De huidige site, vernieuwd.",
+     true
+    ],
+    [
+     "t_7c33597a22",
+     "text",
+     "De bestaande site is de basis. Alles wat nodig is gaat mee…",
+     true
+    ],
+    [
+     "t_453a6b592d",
+     "text",
+     "Alle benodigde pagina's, foto's en links mee, teksten indi…",
+     true
+    ],
+    [
+     "t_8fa6a1efe3",
+     "text",
+     "Reserverings- en boekingsmodules overgenomen",
+     true
+    ],
+    [
+     "t_c7791dfa01",
+     "text",
+     "Oude adressen blijven werken of worden doorverwezen",
+     true
+    ],
+    [
+     "p_47ca989f2f",
+     "plaats",
+     "Graphic 2",
+     false
+    ],
+    [
+     "i_64150b9e2c",
+     "img",
+     "Foto: ember.webp",
+     false
+    ],
+    [
+     "t_3d6ea717f6",
+     "text",
+     "oud.jouwbedrijf.nl",
+     true
+    ],
+    [
+     "t_3caba19f3e",
+     "text",
+     "Welkom op onze website!!",
+     true
+    ],
+    [
+     "t_5846176acb",
+     "text",
+     "Home",
+     true
+    ],
+    [
+     "t_c7dcb2f917",
+     "text",
+     "Over ons",
+     true
+    ],
+    [
+     "t_1d00b26b83",
+     "text",
+     "Menu",
+     true
+    ],
+    [
+     "t_b17cc1ed19",
+     "text",
+     "Contact",
+     true
+    ],
+    [
+     "t_d8a5099eb4",
+     "text",
+     "Gastenboek",
+     true
+    ],
+    [
+     "t_24c15ba226",
+     "text",
+     "Nieuws",
+     true
+    ],
+    [
+     "t_031674cd5c",
+     "text",
+     "Fotoalbum",
+     true
+    ],
+    [
+     "t_f8255c2de4",
+     "text",
+     "Links",
+     true
+    ],
+    [
+     "t_1e56d134c8",
+     "text",
+     "Route",
+     true
+    ],
+    [
+     "t_a58ba9e49c",
+     "text",
+     "Wij zijn al jaren uw adres voor ...",
+     true
+    ],
+    [
+     "t_58e34b0af2",
+     "text",
+     "Klik hier voor onze openingstijden. Bel voor een afspraak …",
+     true
+    ],
+    [
+     "t_357107325b",
+     "text",
+     "foto.jpg",
+     true
+    ],
+    [
+     "t_1161a7d896",
+     "text",
+     "jouwbedrijf.nl",
+     true
+    ],
+    [
+     "t_50d00faba1",
+     "text",
+     "Vers van de zaak.",
+     true
+    ],
+    [
+     "i_f41a708a1a",
+     "img",
+     "Foto: ember.webp (2)",
+     false
+    ],
+    [
+     "t_8d34df30fb",
+     "text",
+     "Reserveer",
+     true
+    ],
+    [
+     "t_1795632fff",
+     "text",
+     "Bekijk menu",
+     true
+    ],
+    [
+     "t_cae7d64711",
+     "text",
+     "Zelf aanpassen, zonder gedoe.",
+     true
+    ],
+    [
+     "t_cb721cfd85",
+     "text",
+     "Na akkoord krijgt de site een beheerscherm. De lay-out bli…",
+     true
+    ],
+    [
+     "t_aed4a1a8cc",
+     "text",
+     "Alle pagina's bewerkbaar: teksten, foto's, openingstijden",
+     true
+    ],
+    [
+     "t_1a764edfee",
+     "text",
+     "Pagina's verbergen of weer tonen",
+     true
+    ],
+    [
+     "t_7f64ccf67e",
+     "text",
+     "Inloggen met eigen e-mailadres en wachtwoord",
+     true
+    ],
+    [
+     "t_1cfbc0665e",
+     "text",
+     "Een proefversie om eerst rustig te oefenen",
+     true
+    ],
+    [
+     "p_be0534dd7d",
+     "plaats",
+     "Graphic 3",
+     false
+    ],
+    [
+     "i_5684d6224e",
+     "img",
+     "Foto: d4.webp",
+     false
+    ],
+    [
+     "t_d4ca4d3ac2",
+     "text",
+     "jouwbedrijf.nl/admin",
+     true
+    ],
+    [
+     "t_160d482c71",
+     "text",
+     "Pagina's · zichtbaar",
+     true
+    ],
+    [
+     "t_3fed0faa4c",
+     "text",
+     "Menukaart",
+     true
+    ],
+    [
+     "t_9d3a8bed05",
+     "text",
+     "Reserveren",
+     true
+    ],
+    [
+     "t_2bd91c9478",
+     "text",
+     "Zomeractie",
+     true
+    ],
+    [
+     "t_ef9a5f9961",
+     "text",
+     "Vacatures",
+     true
+    ],
+    [
+     "t_6ea9647931",
+     "text",
+     "Openingstijden",
+     true
+    ],
+    [
+     "t_f80a56032d",
+     "text",
+     "Di t/m za 11–22",
+     true
+    ],
+    [
+     "t_41c2166b5e",
+     "text",
+     "Di t/m zo 11–23",
+     true
+    ],
+    [
+     "t_663d80cbd8",
+     "text",
+     "Foto bovenaan",
+     true
+    ],
+    [
+     "i_661f519451",
+     "img",
+     "Foto: ember.webp (3)",
+     false
+    ],
+    [
+     "t_b7701d66b4",
+     "text",
+     "terras-zomer.jpg",
+     true
+    ],
+    [
+     "t_8106b8e490",
+     "text",
+     "Publiceren",
+     true
+    ],
+    [
+     "t_18523d13a6",
+     "text",
+     "Live op jouwbedrijf.nl",
+     false
+    ],
+    [
+     "t_c4c64c2a6e",
+     "text",
+     "Online op het eigen domein.",
+     true
+    ],
+    [
+     "t_8969de214e",
+     "text",
+     "De site gaat online en het domein wordt gekoppeld. E-mail …",
+     true
+    ],
+    [
+     "t_48c2dffd97",
+     "text",
+     "Domein blijft op eigen naam",
+     true
+    ],
+    [
+     "t_a6eb27a7aa",
+     "text",
+     "Beveiligde verbinding (HTTPS)",
+     true
+    ],
+    [
+     "t_b0cd6377c2",
+     "text",
+     "Lettertypes zelf gehost, netjes voor de privacy",
+     true
+    ],
+    [
+     "p_ed6756e6f9",
+     "plaats",
+     "Graphic 4",
+     false
+    ],
+    [
+     "i_81f3b114f0",
+     "img",
+     "Foto: d2.webp",
+     false
+    ],
+    [
+     "t_3819fa92df",
+     "text",
+     "Livegang · checklist",
+     true
+    ],
+    [
+     "t_5ea81598c1",
+     "text",
+     "jouwbedrijf.nl gekoppeld",
+     true
+    ],
+    [
+     "t_e4586a04b6",
+     "text",
+     "HTTPS actief",
+     true
+    ],
+    [
+     "t_5a67aaec4e",
+     "text",
+     "E-mail ongewijzigd",
+     true
+    ],
+    [
+     "t_8f15b9cebb",
+     "text",
+     "Oude adressen doorverwezen",
+     true
+    ],
+    [
+     "t_9917ff2551",
+     "text",
+     "Lettertypes zelf gehost",
+     true
+    ],
+    [
+     "t_fe384e7655",
+     "text",
+     "Online",
+     false
+    ],
+    [
+     "t_dfe62ec54c",
+     "text",
+     "Daarna, alles geregeld.",
+     true
+    ],
+    [
+     "t_9bbb510027",
+     "text",
+     "Beheer per maand of per jaar, met hulp bij het aanpassen, …",
+     true
+    ],
+    [
+     "t_f6f39bf88b",
+     "text",
+     "Beheer per maand of per jaar",
+     true
+    ],
+    [
+     "t_0fa7371cff",
+     "text",
+     "Hulp bij nieuwe pagina's, functies en aanpassingen",
+     true
+    ],
+    [
+     "t_196b2067eb",
+     "text",
+     "Of alleen website en beheerscherm, zonder vaste kosten",
+     true
+    ],
+    [
+     "t_3d2a6c2994",
+     "text",
+     "Bij opzegging wordt de site overgedragen",
+     true
+    ],
+    [
+     "p_98d9e98959",
+     "plaats",
+     "Graphic 5",
+     false
+    ],
+    [
+     "i_5f8607a270",
+     "img",
+     "Foto: d6.webp",
+     false
+    ],
+    [
+     "t_246b2c0eeb",
+     "text",
+     "Beheer",
+     true
+    ],
+    [
+     "t_8cd95c7a02",
+     "text",
+     "Per maand",
+     true
+    ],
+    [
+     "t_2b17c4114e",
+     "text",
+     "Per jaar",
+     true
+    ],
+    [
+     "t_82750ec52e",
+     "text",
+     "Zonder beheer",
+     true
+    ],
+    [
+     "t_156aa2af14",
+     "text",
+     "Login-dienst en hosting geregeld",
+     true
+    ],
+    [
+     "t_fff60e9cea",
+     "text",
+     "Hulp als er iets niet werkt",
+     true
+    ],
+    [
+     "t_3e5fc2dc49",
+     "text",
+     "Losse aanpassingen mogelijk",
+     true
+    ],
+    [
+     "t_f187ea9644",
+     "text",
+     "Prijzen op aanvraag",
+     true
+    ]
+   ]
+  },
+  "s_04ad7196": {
+   "label": "Welke aanpak past bij jou?",
+   "fields": [
+    [
+     "i_19e633e4fc",
+     "img",
+     "Foto: cta.webp",
+     false
+    ],
+    [
+     "i_8f93b1f8f2",
+     "img",
+     "Foto: cta.webp (2)",
+     false
+    ],
+    [
+     "t_1d1dc1d175",
+     "text",
+     "Welke aanpak past bij jou?",
+     true
+    ],
+    [
+     "t_431bf17046",
+     "text",
+     "Een kort gesprek maakt duidelijk wat er nodig is. Daarna v…",
+     true
+    ],
+    [
+     "t_4144ab76c5",
+     "text",
+     "Plan een kennismaking",
+     false
+    ],
+    [
+     "t_1b03b57380",
+     "text",
+     "Bekijk de werkwijze",
+     true
+    ]
+   ]
+  }
+ },
+ "werkwijze.html": {
+  "s_0153ea02": {
+   "label": "Eerst zien,dan beslissen.",
+   "fields": [
+    [
+     "i_157e07e1a4",
+     "img",
+     "Foto: d3.webp",
+     false
+    ],
+    [
+     "i_6b54b99b5d",
+     "img",
+     "Foto: d3.webp (2)",
+     false
+    ],
+    [
+     "p_6c48345593",
+     "plaats",
+     "Graphic in de header 1",
+     false
+    ],
+    [
+     "t_f86b21953e",
+     "text",
+     "Planning",
+     true
+    ],
+    [
+     "t_1ef07f7cae",
+     "text",
+     "Ontwerp akkoord",
+     false
+    ],
+    [
+     "t_b79705a403",
+     "text",
+     "01 Kennismaking",
+     true
+    ],
+    [
+     "t_fcc7d40c50",
+     "text",
+     "completed",
+     true
+    ],
+    [
+     "t_c5ec8c19a2",
+     "text",
+     "02 Ontwerp",
+     true
+    ],
+    [
+     "t_1b8ffb7bc6",
+     "text",
+     "03 Samen doorlopen",
+     true
+    ],
+    [
+     "t_86a32b2533",
+     "text",
+     "04 Livegang",
+     true
+    ],
+    [
+     "t_4692560d1a",
+     "text",
+     "in progress",
+     true
+    ],
+    [
+     "t_7c951d6e88",
+     "text",
+     "05 Beheer",
+     true
+    ],
+    [
+     "t_b343c09cb2",
+     "text",
+     "scheduled",
+     true
+    ],
+    [
+     "t_33d5db0dc8",
+     "text",
+     "Eerst zien,",
+     true
+    ],
+    [
+     "t_0519baabd4",
+     "text",
+     "dan beslissen.",
+     true
+    ],
+    [
+     "t_457a531b3d",
+     "text",
+     "Een eerste ontwerp op maat, gemaakt voor uw zaak. Bekijken…",
+     true
+    ]
+   ]
+  },
+  "s_33add96b": {
+   "label": "Van gesprek tot live.",
+   "fields": [
+    [
+     "t_030cf7ca4d",
+     "text",
+     "Van gesprek tot live.",
+     true
+    ],
+    [
+     "t_e06822f5cc",
+     "text",
+     "01",
+     true
+    ],
+    [
+     "t_a1d3641791",
+     "text",
+     "Kennismaking",
+     true
+    ],
+    [
+     "t_edd263a3e8",
+     "text",
+     "Een gesprek over het bedrijf, de klanten en de huidige sit…",
+     true
+    ],
+    [
+     "t_04f5af4122",
+     "text",
+     "Plan een kennismaking",
+     false
+    ],
+    [
+     "t_7f7224f803",
+     "text",
+     "02",
+     true
+    ],
+    [
+     "t_cf3be58bba",
+     "text",
+     "Ontwerp",
+     true
+    ],
+    [
+     "t_77c5de40bb",
+     "text",
+     "Een ontwerp op basis van de huidige site en huisstijl: kle…",
+     true
+    ],
+    [
+     "t_24f6f18fa6",
+     "text",
+     "03",
+     true
+    ],
+    [
+     "t_5501f7b902",
+     "text",
+     "Samen doorlopen",
+     true
+    ],
+    [
+     "t_2f56be1dcb",
+     "text",
+     "Het ontwerp wordt samen doorgelopen en bijgeschaafd tot al…",
+     true
+    ],
+    [
+     "t_3f935c49f3",
+     "text",
+     "04",
+     true
+    ],
+    [
+     "t_109661edb7",
+     "text",
+     "Beheerscherm en livegang",
+     true
+    ],
+    [
+     "t_cb844d467b",
+     "text",
+     "Na akkoord krijgt de site een beheerscherm in dezelfde lay…",
+     true
+    ],
+    [
+     "t_777f152511",
+     "text",
+     "Over het beheerscherm",
+     false
+    ],
+    [
+     "t_337c5aeaf2",
+     "text",
+     "05",
+     true
+    ],
+    [
+     "t_1ab501189e",
+     "text",
+     "Beheer",
+     true
+    ],
+    [
+     "t_a50e1c661f",
+     "text",
+     "Beheer per maand of per jaar, met hulp bij aanpassingen, n…",
+     true
+    ],
+    [
+     "t_50fd0037e9",
+     "text",
+     "Over beheer",
+     false
+    ]
+   ]
+  },
+  "s_d1d73b73": {
+   "label": "Goed om te weten.",
+   "fields": [
+    [
+     "t_63b60d79d5",
+     "text",
+     "Goed om te weten.",
+     true
+    ],
+    [
+     "t_0750848a64",
+     "text",
+     "Staat een vraag er niet tussen? Stel hem gerust in de kenn…",
+     true
+    ],
+    [
+     "t_079c6466c2",
+     "text",
+     "Wat kost een website?",
+     false
+    ],
+    [
+     "t_f23ea5c0a2",
+     "text",
+     "Dat hangt af van het aantal pagina's en wat erin moet. Na …",
+     true
+    ],
+    [
+     "t_2174936537",
+     "text",
+     "Hoe lang duurt het?",
+     false
+    ],
+    [
+     "t_d1f8e95ad9",
+     "text",
+     "Dat hangt af van de omvang en van het samen doorlopen van …",
+     true
+    ],
+    [
+     "t_598bd617cc",
+     "text",
+     "Is beheer verplicht?",
+     false
+    ],
+    [
+     "t_bfec8acb77",
+     "text",
+     "Nee. Alleen de website met beheerscherm afnemen kan ook, z…",
+     true
+    ],
+    [
+     "t_52e7784cb2",
+     "text",
+     "Wat is er nodig om te starten?",
+     false
+    ],
+    [
+     "t_c676dbd2c4",
+     "text",
+     "De link van de huidige site (als die er is), het logo, fot…",
+     true
+    ],
+    [
+     "t_3c951bc29f",
+     "text",
+     "Is de site zelf aan te passen?",
+     false
+    ],
+    [
+     "t_e98bae7ce2",
+     "text",
+     "Ja. Via het beheerscherm zijn teksten, foto's en openingst…",
+     true
+    ],
+    [
+     "t_e9d2b4a38d",
+     "text",
+     "Van wie is het domein?",
+     false
+    ],
+    [
+     "t_1d47084adf",
+     "text",
+     "Van het bedrijf zelf. Het domein blijft op eigen naam, en …",
+     true
+    ],
+    [
+     "t_8b4a6bf2dc",
+     "text",
+     "Wat gebeurt er bij stoppen met beheer?",
+     false
+    ],
+    [
+     "t_b5f2005269",
+     "text",
+     "Dan wordt de site overgedragen.",
+     true
+    ],
+    [
+     "t_4781a14804",
+     "text",
+     "Blijft het reserveringssysteem werken?",
+     false
+    ],
+    [
+     "t_3be55c73d2",
+     "text",
+     "Bestaande reserverings- en boekingsmodules worden overgeno…",
+     true
+    ],
+    [
+     "t_8c34ddc6fe",
+     "text",
+     "Werken oude links nog?",
+     false
+    ],
+    [
+     "t_a2c4e4f1a0",
+     "text",
+     "Ja. Oude adressen blijven gelijk of worden doorgestuurd na…",
+     true
+    ],
+    [
+     "t_66c705a8fb",
+     "text",
+     "Werkt de site op een telefoon?",
+     false
+    ],
+    [
+     "t_3535a34426",
+     "text",
+     "Ja, elke pagina is ontworpen voor telefoon, tablet en lapt…",
+     true
+    ]
+   ]
+  },
+  "s_dc841651": {
+   "label": "Klaar voor een nieuwe site?",
+   "fields": [
+    [
+     "i_80ac551cb1",
+     "img",
+     "Foto: cta.webp",
+     false
+    ],
+    [
+     "i_457a253372",
+     "img",
+     "Foto: cta.webp (2)",
+     false
+    ],
+    [
+     "t_a6f2d99a50",
+     "text",
+     "Klaar voor een nieuwe site?",
+     true
+    ],
+    [
+     "t_55c20b1b4b",
+     "text",
+     "Stuur bij de aanvraag de link van de huidige site mee. Dan…",
+     true
+    ],
+    [
+     "t_04f5af4122",
+     "text",
+     "Plan een kennismaking",
+     false
+    ],
+    [
+     "t_e080f17def",
+     "text",
+     "Bekijk de diensten",
+     true
+    ]
+   ]
+  }
+ },
+ "over-ons.html": {
+  "s_49705b82": {
+   "label": "Gemaakt met oogvoor detail.",
+   "fields": [
+    [
+     "i_0e7ae677c1",
+     "img",
+     "Foto: d5.webp",
+     false
+    ],
+    [
+     "i_9eca3175b0",
+     "img",
+     "Foto: d5.webp (2)",
+     false
+    ],
+    [
+     "p_af40bd6d27",
+     "plaats",
+     "Graphic in de header 1",
+     false
+    ],
+    [
+     "t_00b8066c8c",
+     "text",
+     "Tagent",
+     true
+    ],
+    [
+     "t_1708f68c2a",
+     "text",
+     "Utrecht en omstreken",
+     true
+    ],
+    [
+     "t_20a486acb3",
+     "text",
+     "Op maat",
+     false
+    ],
+    [
+     "t_16eac1fa5d",
+     "text",
+     "Websiteontwerp",
+     true
+    ],
+    [
+     "t_d4a110fc46",
+     "text",
+     "eerste ontwerp op maat",
+     true
+    ],
+    [
+     "t_cd78e68611",
+     "text",
+     "Beheerscherm",
+     true
+    ],
+    [
+     "t_8e5fee7c39",
+     "text",
+     "zelf aanpassen",
+     true
+    ],
+    [
+     "t_69a83c5701",
+     "text",
+     "Optimalisatie",
+     true
+    ],
+    [
+     "t_7b6467294b",
+     "text",
+     "snel en vindbaar",
+     true
+    ],
+    [
+     "t_078c8f7471",
+     "text",
+     "Beheer",
+     true
+    ],
+    [
+     "t_18dcf26877",
+     "text",
+     "optioneel",
+     true
+    ],
+    [
+     "t_18fdd20a8a",
+     "text",
+     "Gemaakt met oog",
+     true
+    ],
+    [
+     "t_29291959a9",
+     "text",
+     "voor detail.",
+     true
+    ],
+    [
+     "t_73cf8e098e",
+     "text",
+     "Tagent ontwerpt, bouwt en beheert websites voor ondernemer…",
+     true
+    ]
+   ]
+  },
+  "s_1c722482": {
+   "label": "Sectie",
+   "fields": [
+    [
+     "t_5f5a3408a2",
+     "text",
+     "Een goede website voelt vanzelfsprekend. Alles is snel te …",
+     true
+    ],
+    [
+     "t_c16e4c4f28",
+     "text",
+     "Een",
+     true
+    ],
+    [
+     "t_39a9be99dd",
+     "text",
+     "goede",
+     true
+    ],
+    [
+     "t_d0769700c2",
+     "text",
+     "website",
+     true
+    ],
+    [
+     "t_94daaa1969",
+     "text",
+     "voelt",
+     true
+    ],
+    [
+     "t_e03faf4470",
+     "text",
+     "vanzelfsprekend.",
+     true
+    ],
+    [
+     "t_742a3824ea",
+     "text",
+     "Alles",
+     true
+    ],
+    [
+     "t_32eecb6bb8",
+     "text",
+     "is",
+     true
+    ],
+    [
+     "t_0fc1ca8f2d",
+     "text",
+     "snel",
+     true
+    ],
+    [
+     "t_28dc8a0919",
+     "text",
+     "te",
+     true
+    ],
+    [
+     "t_55c210d987",
+     "text",
+     "vinden,",
+     true
+    ],
+    [
+     "t_1d23d2a320",
+     "text",
+     "alles",
+     true
+    ],
+    [
+     "t_ba0cd97e87",
+     "text",
+     "klopt,",
+     true
+    ],
+    [
+     "t_4d676975cf",
+     "text",
+     "en",
+     true
+    ],
+    [
+     "t_15419adaa4",
+     "text",
+     "de",
+     true
+    ],
+    [
+     "t_5380eb79d4",
+     "text",
+     "ondernemer",
+     true
+    ],
+    [
+     "t_e73643f7c6",
+     "text",
+     "houdt",
+     true
+    ],
+    [
+     "t_cca87302a6",
+     "text",
+     "hem",
+     true
+    ],
+    [
+     "t_c721561da6",
+     "text",
+     "zelf",
+     true
+    ],
+    [
+     "t_71ca4f4d7f",
+     "text",
+     "bij.",
+     true
+    ],
+    [
+     "t_e86709f482",
+     "text",
+     "Dat",
+     true
+    ],
+    [
+     "t_c641f21696",
+     "text",
+     "maatstaf",
+     true
+    ],
+    [
+     "t_dd9d61778c",
+     "text",
+     "voor",
+     true
+    ],
+    [
+     "t_7ddb6869d2",
+     "text",
+     "elke",
+     true
+    ],
+    [
+     "t_bc5660b889",
+     "text",
+     "site.",
+     true
+    ]
+   ]
+  },
+  "s_d64a5a04": {
+   "label": "Waarom Tagent?",
+   "fields": [
+    [
+     "t_c3057834da",
+     "text",
+     "Waarom Tagent?",
+     true
+    ],
+    [
+     "t_01c5a58288",
+     "text",
+     "Voor veel ondernemers is de website de eerste kennismaking…",
+     true
+    ],
+    [
+     "t_9ed086833d",
+     "text",
+     "Tagent maakt daar een site van die strak oogt, op elk sche…",
+     true
+    ],
+    [
+     "p_596ab1aa97",
+     "plaats",
+     "Graphic 1",
+     false
+    ],
+    [
+     "i_125d4e2924",
+     "img",
+     "Foto: ember.webp",
+     false
+    ],
+    [
+     "t_6f4f9bc145",
+     "text",
+     "oud.jouwbedrijf.nl",
+     true
+    ],
+    [
+     "t_12acd04536",
+     "text",
+     "Welkom op onze website!!",
+     true
+    ],
+    [
+     "t_671b536742",
+     "text",
+     "Home",
+     true
+    ],
+    [
+     "t_6b375eb412",
+     "text",
+     "Over ons",
+     true
+    ],
+    [
+     "t_fd0d0fc609",
+     "text",
+     "Menu",
+     true
+    ],
+    [
+     "t_f02540222c",
+     "text",
+     "Contact",
+     true
+    ],
+    [
+     "t_4a69b79cf9",
+     "text",
+     "Gastenboek",
+     true
+    ],
+    [
+     "t_0413c6081b",
+     "text",
+     "Nieuws",
+     true
+    ],
+    [
+     "t_9f24d7b485",
+     "text",
+     "Fotoalbum",
+     true
+    ],
+    [
+     "t_bc2bd8669e",
+     "text",
+     "Links",
+     true
+    ],
+    [
+     "t_832a50eb61",
+     "text",
+     "Route",
+     true
+    ],
+    [
+     "t_48d0d5c4e6",
+     "text",
+     "Wij zijn al jaren uw adres voor ...",
+     true
+    ],
+    [
+     "t_42db9c4e45",
+     "text",
+     "Klik hier voor onze openingstijden. Bel voor een afspraak …",
+     true
+    ],
+    [
+     "t_7b76cf2eba",
+     "text",
+     "foto.jpg",
+     true
+    ],
+    [
+     "t_85f7b2b974",
+     "text",
+     "jouwbedrijf.nl",
+     true
+    ],
+    [
+     "t_84f31e7c2c",
+     "text",
+     "Jouw zaak",
+     true
+    ],
+    [
+     "t_128dd6c810",
+     "text",
+     "Vers van de zaak.",
+     true
+    ],
+    [
+     "i_b3d0655d70",
+     "img",
+     "Foto: ember.webp (2)",
+     false
+    ],
+    [
+     "t_06ba015bda",
+     "text",
+     "Reserveer",
+     true
+    ],
+    [
+     "t_6391b5d4d5",
+     "text",
+     "Bekijk menu",
+     true
+    ]
+   ]
+  },
+  "s_72b0e98f": {
+   "label": "Drie vaste uitgangspunten.",
+   "fields": [
+    [
+     "t_634bd09158",
+     "text",
+     "Drie vaste uitgangspunten.",
+     true
+    ],
+    [
+     "i_05ac113978",
+     "img",
+     "Foto: d1.webp",
+     false
+    ],
+    [
+     "t_0f63fcf375",
+     "text",
+     "Akkoord",
+     true
+    ],
+    [
+     "t_75d16020bb",
+     "text",
+     "ontwerp op maat bekeken",
+     true
+    ],
+    [
+     "t_8831316f7a",
+     "text",
+     "Eerst zien",
+     true
+    ],
+    [
+     "t_9c8e262cda",
+     "text",
+     "Een eerste ontwerp op maat, gemaakt voor uw zaak. Bekijken…",
+     true
+    ],
+    [
+     "i_69f4fde4c0",
+     "img",
+     "Foto: d3.webp",
+     false
+    ],
+    [
+     "t_7f6074e165",
+     "text",
+     "Foto's",
+     true
+    ],
+    [
+     "t_3d32159ea5",
+     "text",
+     "eigen beeld",
+     true
+    ],
+    [
+     "t_b10ebaf5bc",
+     "text",
+     "Openingstijden",
+     true
+    ],
+    [
+     "t_9147fa7557",
+     "text",
+     "huidige site",
+     true
+    ],
+    [
+     "t_499b1a03b4",
+     "text",
+     "Klantreview",
+     true
+    ],
+    [
+     "t_b88e6cf557",
+     "text",
+     "samen afstemmen",
+     true
+    ],
+    [
+     "t_0b6f5c7467",
+     "text",
+     "Eerlijk",
+     true
+    ],
+    [
+     "t_461451b721",
+     "text",
+     "Echte foto's, echte openingstijden, echte reviews. Wat nog…",
+     true
+    ],
+    [
+     "i_6a77432b34",
+     "img",
+     "Foto: d4.webp",
+     false
+    ],
+    [
+     "t_85f7b2b974",
+     "text",
+     "jouwbedrijf.nl",
+     true
+    ],
+    [
+     "t_64afbe0057",
+     "text",
+     "op eigen naam",
+     true
+    ],
+    [
+     "t_a18518792c",
+     "text",
+     "Zelf in de hand",
+     true
+    ],
+    [
+     "t_e21b161501",
+     "text",
+     "De inhoud zelf aanpassen, en het domein blijft op eigen na…",
+     true
+    ]
+   ]
+  },
+  "s_65578506": {
+   "label": "Achter Tagent.",
+   "fields": [
+    [
+     "t_c0e77fd0f0",
+     "text",
+     "Achter Tagent.",
+     true
+    ],
+    [
+     "t_546aea9a49",
+     "text",
+     "Tagent is opgericht door Tygo Brunenberg. Hij studeert Ond…",
+     true
+    ],
+    [
+     "i_eac199ed81",
+     "img",
+     "Foto: d6.webp",
+     false
+    ],
+    [
+     "t_14ac13e365",
+     "text",
+     "Specialisme",
+     true
+    ],
+    [
+     "t_95ef119662",
+     "text",
+     "Websiteontwerp, -beheer en -optimalisatie",
+     true
+    ],
+    [
+     "t_39df7ed48e",
+     "text",
+     "Werkgebied",
+     true
+    ],
+    [
+     "t_1708f68c2a",
+     "text",
+     "Utrecht en omstreken",
+     true
+    ],
+    [
+     "t_f02540222c",
+     "text",
+     "Contact",
+     true
+    ],
+    [
+     "t_c4d74463d1",
+     "text",
+     "Telefoon",
+     true
+    ]
+   ]
+  },
+  "s_0a6facc0": {
+   "label": "Laten we kennismaken.",
+   "fields": [
+    [
+     "i_88e32fbee3",
+     "img",
+     "Foto: cta.webp",
+     false
+    ],
+    [
+     "i_27ccdaa8ce",
+     "img",
+     "Foto: cta.webp (2)",
+     false
+    ],
+    [
+     "t_e49742bf2f",
+     "text",
+     "Laten we kennismaken.",
+     true
+    ],
+    [
+     "t_499eb203d8",
+     "text",
+     "Een kort gesprek over het bedrijf, met eerlijk advies over…",
+     true
+    ],
+    [
+     "t_e02eea067b",
+     "text",
+     "Plan een kennismaking",
+     false
+    ],
+    [
+     "t_a3864c4142",
+     "text",
+     "Bekijk de werkwijze",
+     true
+    ]
+   ]
+  }
+ },
+ "kennismaking.html": {
+  "s_4fc7681a": {
+   "label": "Laten wekennismaken.",
+   "fields": [
+    [
+     "t_56f5e09b12",
+     "text",
+     "Laten we",
+     true
+    ],
+    [
+     "t_edf655f11a",
+     "text",
+     "kennismaken.",
+     true
+    ],
+    [
+     "t_48b479178e",
+     "text",
+     "Een kort gesprek over het bedrijf en de wensen. Is er al e…",
+     true
+    ],
+    [
+     "t_ecd221f7be",
+     "text",
+     "Een kort gesprek over het bedrijf en de huidige site",
+     true
+    ],
+    [
+     "t_a38003dbe3",
+     "text",
+     "Eerlijk advies over wat beter kan",
+     true
+    ],
+    [
+     "t_b5f7cd30a3",
+     "text",
+     "Een voorstel én eerste ontwerp op maat",
+     true
+    ],
+    [
+     "t_83212813a3",
+     "text",
+     "Vraag 1 van 3",
+     true
+    ],
+    [
+     "t_15e3c84b5e",
+     "text",
+     "Waar kan Tagent bij helpen?",
+     true
+    ],
+    [
+     "t_668d681bda",
+     "text",
+     "Nieuwe website",
+     true
+    ],
+    [
+     "t_8fbb4504aa",
+     "text",
+     "Redesign van de website",
+     true
+    ],
+    [
+     "t_bfbb43ec66",
+     "text",
+     "Beheer van de website",
+     true
+    ],
+    [
+     "t_2fd4c1e201",
+     "text",
+     "Advies",
+     true
+    ],
+    [
+     "t_de32e0993b",
+     "text",
+     "Weet ik nog niet",
+     true
+    ],
+    [
+     "t_5c1e8e46ea",
+     "text",
+     "Overig",
+     true
+    ],
+    [
+     "t_d9f77a0722",
+     "text",
+     "Of omschrijf het kort",
+     true
+    ],
+    [
+     "t_ead3b13b2f",
+     "text",
+     "Voorbeeldtekst: Bijv. een extra pagina of een webshop",
+     false
+    ],
+    [
+     "t_73b85d70b9",
+     "text",
+     "Volgende",
+     false
+    ],
+    [
+     "t_4560bcc03a",
+     "text",
+     "Wat is het doel?",
+     true
+    ],
+    [
+     "t_6a5d815e63",
+     "text",
+     "Wat moet de website straks opleveren of makkelijker maken?",
+     true
+    ],
+    [
+     "t_3a7ccb9359",
+     "text",
+     "Voorbeeldtekst: Bijv. meer reserveringen via de site, of",
+     false
+    ],
+    [
+     "t_4c82df1a2d",
+     "text",
+     "Huidige website (als die er is)",
+     true
+    ],
+    [
+     "t_aed4e0f204",
+     "text",
+     "Voorbeeldtekst: www.jouwbedrijf.nl",
+     false
+    ],
+    [
+     "t_aa2e4a6c12",
+     "text",
+     "Terug",
+     true
+    ],
+    [
+     "t_79ea2e8867",
+     "text",
+     "Hoe is er contact mogelijk?",
+     true
+    ],
+    [
+     "t_7c26bada4d",
+     "text",
+     "Naam",
+     true
+    ],
+    [
+     "t_6e7a2d7ce8",
+     "text",
+     "Voorbeeldtekst: Voor- en achternaam",
+     false
+    ],
+    [
+     "t_f2b9c5ba79",
+     "text",
+     "Telefoonnummer",
+     true
+    ],
+    [
+     "t_de6f700345",
+     "text",
+     "Voorbeeldtekst: 06 12345678",
+     false
+    ],
+    [
+     "t_32ad11e1ca",
+     "text",
+     "E-mailadres",
+     true
+    ],
+    [
+     "t_968a55616c",
+     "text",
+     "Voorbeeldtekst: naam@bedrijf.nl",
+     false
+    ],
+    [
+     "t_8b0c422dc6",
+     "text",
+     "Telefoon of e-mail is genoeg. Gegevens worden alleen gebru…",
+     false
+    ],
+    [
+     "t_bc14f95903",
+     "text",
+     ".",
+     false
+    ],
+    [
+     "t_3f038c191d",
+     "text",
+     "privacyverklaring",
+     true
+    ],
+    [
+     "t_a7571c4353",
+     "text",
+     "Verstuur",
+     false
+    ],
+    [
+     "t_ee6d824ac8",
+     "text",
+     "Bedankt, .",
+     true
+    ],
+    [
+     "t_5228022253",
+     "text",
+     "Dit is alle informatie die nodig is. Tagent neemt zo snel …",
+     true
+    ],
+    [
+     "t_ce94b9050f",
+     "text",
+     "Terug naar home",
+     false
+    ],
+    [
+     "t_3684a8a2ef",
+     "text",
+     "Nieuwe aanvraag",
+     true
+    ]
+   ]
+  }
+ },
+ "privacy.html": {
+  "s_a531446c": {
+   "label": "Privacyverklaring.",
+   "fields": [
+    [
+     "t_df93e41ffd",
+     "text",
+     "Privacyverklaring.",
+     true
+    ],
+    [
+     "t_f731694208",
+     "text",
+     "Hoe Tagent omgaat met gegevens van bezoekers en klanten. L…",
+     true
+    ]
+   ]
+  },
+  "s_cff3596b": {
+   "label": "Wie we zijn",
+   "fields": [
+    [
+     "t_e0f6fb241f",
+     "text",
+     "Wie we zijn",
+     true
+    ],
+    [
+     "t_0818db7e1e",
+     "text",
+     "Tagent ontwerpt, bouwt en beheert websites voor ondernemer…",
+     true
+    ],
+    [
+     "t_071f60ce1e",
+     "text",
+     "Welke gegevens",
+     true
+    ],
+    [
+     "t_e7472c9180",
+     "text",
+     "Bij een aanvraag via het kennismakingsformulier: naam, tel…",
+     true
+    ],
+    [
+     "t_a2a46037f8",
+     "text",
+     "Waarvoor",
+     true
+    ],
+    [
+     "t_e553c21f74",
+     "text",
+     "Alleen om contact op te nemen over de aanvraag en, bij een…",
+     true
+    ],
+    [
+     "t_1871a6ede6",
+     "text",
+     "Grondslag",
+     true
+    ],
+    [
+     "t_cdae67ca0f",
+     "text",
+     "Het verwerken gebeurt op basis van de aanvraag zelf (het v…",
+     true
+    ],
+    [
+     "t_eebf281046",
+     "text",
+     "Hoe lang",
+     true
+    ],
+    [
+     "t_72a1f6234d",
+     "text",
+     "Aanvragen zonder samenwerking worden na 12 maanden verwijd…",
+     true
+    ],
+    [
+     "t_738a2f4148",
+     "text",
+     "Delen met anderen",
+     true
+    ],
+    [
+     "t_e168875607",
+     "text",
+     "Gegevens worden niet verkocht. Het formulier wordt verstuu…",
+     true
+    ],
+    [
+     "t_cffebba574",
+     "text",
+     "Cookies",
+     true
+    ],
+    [
+     "t_1944db2c06",
+     "text",
+     "De website gebruikt geen tracking- of advertentiecookies e…",
+     true
+    ],
+    [
+     "t_cf142249fa",
+     "text",
+     "Lettertypes",
+     true
+    ],
+    [
+     "t_ab5452780d",
+     "text",
+     "De lettertypes worden vanaf de eigen website geladen. Daar…",
+     true
+    ],
+    [
+     "t_bccea08167",
+     "text",
+     "Rechten",
+     true
+    ],
+    [
+     "t_ce4c81bcb8",
+     "text",
+     "Gegevens zijn altijd in te zien, aan te passen of te laten…",
+     true
+    ]
+   ]
+  }
+ },
+ "404.html": {
+  "s_b4582d75": {
+   "label": "Deze pagina bestaatniet.",
+   "fields": [
+    [
+     "t_976978fbb4",
+     "text",
+     "Deze pagina bestaat",
+     true
+    ],
+    [
+     "t_c9550624ee",
+     "text",
+     "niet.",
+     true
+    ],
+    [
+     "t_5fc870d79c",
+     "text",
+     "De link klopt niet meer, of de pagina is verhuisd.",
+     true
+    ],
+    [
+     "t_372494cf2d",
+     "text",
+     "Naar de homepage",
+     false
+    ],
+    [
+     "t_190c33e8c8",
+     "text",
+     "Plan een kennismaking",
+     false
+    ]
+   ]
+  }
+ },
+ "algemeen": {
+  "alg": {
+   "label": "Menu en footer",
+   "fields": [
+    [
+     "t_b737a1af09",
+     "text",
+     "Tagent",
+     false
+    ],
+    [
+     "t_8dff6c3a3b",
+     "text",
+     "Home",
+     true
+    ],
+    [
+     "t_d897baf59c",
+     "text",
+     "Diensten",
+     true
+    ],
+    [
+     "t_397d9d0c0a",
+     "text",
+     "Werkwijze",
+     true
+    ],
+    [
+     "t_f33892b127",
+     "text",
+     "Over ons",
+     true
+    ],
+    [
+     "t_872285d6b8",
+     "text",
+     "Kennismaking",
+     true
+    ],
+    [
+     "t_1d39ce2f36",
+     "text",
+     "Plan een kennismaking",
+     false
+    ],
+    [
+     "t_3387d334b0",
+     "text",
+     "Jouw website, maar dan beter.",
+     true
+    ],
+    [
+     "t_c595da5891",
+     "text",
+     "Nieuwe website",
+     true
+    ],
+    [
+     "t_0764f19744",
+     "text",
+     "Redesign",
+     true
+    ],
+    [
+     "t_28b4c30843",
+     "text",
+     "Beheerscherm",
+     true
+    ],
+    [
+     "t_6e82196be6",
+     "text",
+     "Beheer",
+     true
+    ],
+    [
+     "t_484e55ff31",
+     "text",
+     "Zo werkt het",
+     true
+    ],
+    [
+     "t_18ff42b703",
+     "text",
+     "Veelgestelde vragen",
+     true
+    ],
+    [
+     "t_a6c2a0160e",
+     "text",
+     "Contact",
+     true
+    ],
+    [
+     "t_b291834052",
+     "text",
+     "© 2026 Tagent",
+     true
+    ],
+    [
+     "t_21acfc2ae3",
+     "text",
+     "Privacy",
+     true
+    ]
+   ]
+  }
+ }
+}

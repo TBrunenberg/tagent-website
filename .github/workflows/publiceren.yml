@@ -19,7 +19,9 @@ jobs:
         with:
           python-version: "3.12"
       - name: Site bouwen
-        run: python build.py
+        run: |
+          pip install -r requirements.txt
+          python build.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
