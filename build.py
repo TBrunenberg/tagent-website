@@ -26,7 +26,7 @@ CONSTS = {"email": EMAIL, "telefoon": TEL}
 DECAP_IDENTITY_URL = "https://auth.decapbridge.com/sites/VUL-IN-SITE-ID"
 DECAP_GATEWAY_URL = "https://gateway.decapbridge.com"
 DECAP_REPO = "TBrunenberg/tagent-website"
-CF_BEACON_TOKEN = ""  # sitetoken van Cloudflare Web Analytics (site tagent.nl); leeg = geen statistieken. Geen geheim: staat altijd zichtbaar in de pagina.
+CF_BEACON_TOKEN = "b77a92f44194496d83519bd35d848ebf"  # sitetoken van Cloudflare Web Analytics (site tagent.nl); leeg = geen statistieken. Geen geheim: staat altijd zichtbaar in de pagina.
 WEB3FORMS_KEY = ""  # toegangssleutel van web3forms.com (gekoppeld aan info@tagent.nl); leeg = verzenden via e-mailprogramma
 MENU = [("index.html", "Home"), ("diensten.html", "Diensten"), ("werkwijze.html", "Werkwijze"),
         ("over-ons.html", "Over ons"), ("kennismaking.html", "Kennismaking")]

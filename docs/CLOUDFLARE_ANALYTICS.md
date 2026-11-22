@@ -24,7 +24,7 @@ Paginapad (zonder zoekparameters), verwijzende website, land, apparaattype, brow
 5. **Zelf blijven controleren**: kies rechtsboven de periode (bijv. "Last 7 days" of "Last 30 days"). Tip: kijk elke maandag even naar de afgelopen 7 dagen en vergelijk na een Instagram-post of de bezoeken stijgen en via welke referer. Nieuwe bezoeken verschijnen meestal binnen een paar minuten.
 
 ## Openstaande stappen
-1. Tygo: dash.cloudflare.com → Web Analytics → **Add a site** → hostnaam `tagent.nl` → Done. Kies bij installatie de handmatige JS-snippet (geen DNS-wijziging, geen "automatic setup").
-2. Tygo: kopieer uit de snippet alleen de waarde achter `"token":` en stuur die door.
-3. Claude: token in `CF_BEACON_TOKEN` zetten, publiceren, controleren dat het script op alle pagina's staat en dat de console foutloos is.
+1. ~~Site toevoegen~~ gedaan (tagent.nl, JS-snippet).
+2. ~~Token~~ opgehaald en ingevuld.
+3. ~~Publiceren en controleren~~ gedaan.
 4. Zodra tagent.nl live is (DNS + custom domain in GitHub Pages): één bezoek doen en na een paar minuten in Cloudflare controleren dat het binnenkomt.

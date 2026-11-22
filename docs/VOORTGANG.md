@@ -27,6 +27,6 @@ Compacte stand van zaken, zodat een volgende sessie direct verder kan. Lees eers
 
 ## Cloudflare Web Analytics (22-11)
 - [x] Code voorbereid, privacyverklaring bijgewerkt, handleiding in docs/CLOUDFLARE_ANALYTICS.md
-- [ ] Tygo: site tagent.nl toevoegen in Cloudflare Web Analytics en token doorsturen
-- [ ] Token invullen en publiceren
+- [x] Site tagent.nl in Cloudflare (aangemaakt door Tygo), token opgehaald
+- [x] Token ingevuld en gepubliceerd
 - [ ] Na livegang tagent.nl: eerste bezoek controleren in Cloudflare
