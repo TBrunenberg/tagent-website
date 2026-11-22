@@ -1,4 +1,4 @@
-# TAGENT – Instagram update brief
+# Tagent – Instagram update brief
 
 Briefing voor de Instagram-agent. Gebruik als basis: `TAGENT_BRAND_GUIDELINES.md` en de definitieve website (tagent.nl).
 Status 22-11-2026: **alle wijzigingen hieronder zijn al doorgevoerd** in de Instagram-editor ("Tagent – Instagram-starter", artifact `16278aca-2a16-4607-bf7b-906368ab73c5`, opslag `content/main`). Deze brief dient als controlelijst en als bron voor nieuwe content.

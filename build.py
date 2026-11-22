@@ -26,6 +26,7 @@ CONSTS = {"email": EMAIL, "telefoon": TEL}
 DECAP_IDENTITY_URL = "https://auth.decapbridge.com/sites/VUL-IN-SITE-ID"
 DECAP_GATEWAY_URL = "https://gateway.decapbridge.com"
 DECAP_REPO = "TBrunenberg/tagent-website"
+CF_BEACON_TOKEN = ""  # sitetoken van Cloudflare Web Analytics (site tagent.nl); leeg = geen statistieken. Geen geheim: staat altijd zichtbaar in de pagina.
 WEB3FORMS_KEY = ""  # toegangssleutel van web3forms.com (gekoppeld aan info@tagent.nl); leeg = verzenden via e-mailprogramma
 MENU = [("index.html", "Home"), ("diensten.html", "Diensten"), ("werkwijze.html", "Werkwijze"),
         ("over-ons.html", "Over ons"), ("kennismaking.html", "Kennismaking")]
@@ -244,7 +245,7 @@ def page_hero(title_lines, lead, img, visual="", height="min(calc(100svh - 72px)
 <div class="media hero-out" style="position: absolute; inset: 0">
 <img class="kb" src="assets/{img}" alt="" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover">
 <img class="kb-2" src="assets/{img}" alt="" style="width: 100%; height: 100%; object-fit: cover">
-<div class="scrim"></div>
+<div class="scrim scrim-fade"></div>
 </div>
 {visual}
 <div class="wrap text-out" style="position: relative; height: 100%; display: flex; flex-direction: column; justify-content: center; gap: 32px; padding-block: 48px">
@@ -748,7 +749,7 @@ over = head(f"{FULL} – Over ons", "Tagent ontwerpt, bouwt en beheert websites 
 <div class="wrap" style="padding-block: 160px; display: flex; flex-wrap: wrap; gap: 64px 96px; align-items: center">
 <div class="reveal" style="flex: 1 1 460px; min-width: 0; display: flex; flex-direction: column; gap: 26px">
 <h2 class="h2">Achter <em class="serif-i">Tagent.</em></h2>
-<p class="body muted" style="font-size: 17px; max-width: 36rem">Tagent is opgericht door Tygo Brunenberg. Hij studeert Ondernemerschap &amp; Retailmanagement aan de HAN en heeft een achtergrond in retail en marketing. Daar zag hij hoe belangrijk een sterke eerste indruk is, en hoe vaak een website daarin tekortschiet.</p>
+<p class="body muted" style="font-size: 17px; max-width: 36rem">Ik ben Tygo Brunenberg. Ik studeer Ondernemerschap &amp; Retailmanagement aan de HAN en heb een achtergrond in retail en marketing. Daar zag ik hoe belangrijk een sterke eerste indruk is, en hoe vaak een website daarin tekortschiet.</p>
 </div>
 <div class="media reveal" style="flex: 1 1 380px; min-width: 0; border-radius: 28px; padding: clamp(24px, 4vw, 48px); display: flex; align-items: center; justify-content: center; min-height: 420px">
 <img class="plx" src="assets/d6.webp" alt="" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: .7">
@@ -756,7 +757,7 @@ over = head(f"{FULL} – Over ons", "Tagent ontwerpt, bouwt en beheert websites 
 </div>
 </div>
 </section>
-''' + cta_block('Laten we <em class="serif-i">kennismaken.</em>', "Een kort gesprek over het bedrijf, met eerlijk advies over wat de site nodig heeft.") + footer() + tail(height=7200)
+''' + cta_block('Laten we <em class="serif-i">kennismaken.</em>', 'Genoeg over ons, hoe ziet <em class="serif-i">jouw</em> website eruit?') + footer() + tail(height=7200)
 pages["over-ons.html"] = over
 pages["over-mij.html"] = f'''<!DOCTYPE html>
 <html lang="nl"><head><meta charset="utf-8"><title>{FULL} – Over ons</title><meta name="robots" content="noindex"><link rel="canonical" href="https://tagent.nl/over-ons.html"><meta http-equiv="refresh" content="0; url=over-ons.html"></head>
@@ -914,15 +915,16 @@ pages["kennismaking.html"] = ken
 # PRIVACY
 # =====================================================================
 priv_items = [
-    ("Wie we zijn", f"{FULL} ontwerpt, bouwt en beheert websites voor ondernemers in Utrecht en omstreken. Vragen over privacy? Mail naar {EMAIL} of bel {TEL}."),
-    ("Welke gegevens", "Bij een aanvraag via het kennismakingsformulier: naam, telefoonnummer en/of e-mailadres, het onderwerp, het doel en (als ingevuld) de link van de huidige website. Bij contact per e-mail of telefoon: de gegevens die daarin worden gedeeld."),
-    ("Waarvoor", "Alleen om contact op te nemen over de aanvraag en, bij een samenwerking, om de afspraken uit te voeren en te factureren. Gegevens worden niet gebruikt voor nieuwsbrieven of reclame."),
-    ("Grondslag", "Het verwerken gebeurt op basis van de aanvraag zelf (het voorbereiden van een overeenkomst) en, bij een samenwerking, de uitvoering van die overeenkomst en wettelijke verplichtingen zoals de administratie."),
-    ("Hoe lang", "Aanvragen zonder samenwerking worden na 12 maanden verwijderd. Bij een samenwerking blijven gegevens bewaard zolang dat nodig is voor de afspraken. Gegevens voor de administratie worden 7 jaar bewaard, zoals de wet voorschrijft."),
-    ("Delen met anderen", "Gegevens worden niet verkocht. Het formulier wordt verstuurd via Web3Forms, dat de aanvraag doorstuurt naar " + EMAIL + ". De website draait op GitHub Pages. Met deze diensten worden alleen de gegevens gedeeld die daarvoor nodig zijn."),
-    ("Cookies", "De website gebruikt geen tracking- of advertentiecookies en houdt geen bezoekersstatistieken bij."),
-    ("Lettertypes", "De lettertypes worden vanaf de eigen website geladen. Daarbij gaan er geen gegevens naar Google Fonts of andere partijen."),
-    ("Rechten", "Gegevens zijn altijd in te zien, aan te passen of te laten verwijderen via " + EMAIL + ". Een klacht kan ook worden ingediend bij de Autoriteit Persoonsgegevens."),
+    ("Wie we zijn", f"{FULL} ontwerpt, bouwt en beheert websites voor ondernemers in Utrecht en omstreken. Verantwoordelijk voor de verwerking van persoonsgegevens is Tygo Brunenberg, handelend onder de naam {FULL}. Tagent gaat zorgvuldig om met persoonsgegevens. Andere vragen over privacy? Mail naar <a href=\"mailto:{EMAIL}\">{EMAIL}</a>."),
+    ("Welke gegevens", "Bij een aanvraag via het kennismakingsformulier verwerken we de gegevens die je invult: je naam, telefoonnummer en/of e-mailadres, het onderwerp, het doel en eventueel de link naar je huidige website. Bij contact via e-mail of telefoon verwerken we de gegevens die je zelf met ons deelt. Daarnaast worden technische gegevens verwerkt die nodig zijn om de website te laten werken en te beveiligen."),
+    ("Waarvoor", "Persoonsgegevens worden alleen gebruikt om contact op te nemen naar aanleiding van een aanvraag, om een eventuele samenwerking voor te bereiden en uit te voeren, om afspraken, facturatie en de wettelijke administratie af te handelen en om de website veilig en goed te laten werken. Gegevens worden niet gebruikt voor nieuwsbrieven of reclame."),
+    ("Grondslag", "Persoonsgegevens worden verwerkt als dat nodig is om op jouw verzoek een overeenkomst voor te bereiden, een overeenkomst uit te voeren of te voldoen aan wettelijke verplichtingen. De anonieme bezoekersstatistieken gebruiken we op basis van ons gerechtvaardigd belang om de website te verbeteren."),
+    ("Hoe lang", "Aanvragen waarbij geen samenwerking ontstaat, worden na maximaal 12 maanden verwijderd. Bij een samenwerking worden gegevens bewaard zolang dat nodig is voor de uitvoering van de afspraken. Gegevens die onderdeel zijn van de financiële administratie worden 7 jaar bewaard, zoals de wet voorschrijft."),
+    ("Kennismakingsformulier", "Het formulier wordt verstuurd via Web3Forms (Web3Creative, India). Web3Forms ontvangt de ingevulde gegevens, je IP-adres en technische gegevens van je browser, controleert de aanvraag op spam en stuurt hem per e-mail door naar " + EMAIL + ". Web3Forms bewaart verzonden formulieren volgens zijn eigen voorwaarden en werkt daarvoor met eigen dienstverleners, ook buiten de Europese Economische Ruimte. Voor die doorgifte gelden de standaardcontractbepalingen van de Europese Commissie."),
+    ("Bezoekersstatistieken", "We gebruiken Cloudflare Web Analytics om te zien hoe vaak pagina's worden bekeken en hoe snel ze laden. Daarbij worden het bezochte paginapad, de verwijzende website, het land, het type apparaat, de browser, het besturingssysteem en laadtijden verwerkt. Je IP-adres wordt niet opgeslagen, er worden geen cookies of andere gegevens op je apparaat geplaatst en bezoekers worden niet gevolgd of herkend. We zien alleen totalen, geen individuele bezoekers."),
+    ("Delen met anderen", "Persoonsgegevens worden niet verkocht of gedeeld voor commerciële doeleinden. Naast Web3Forms en Cloudflare maken we gebruik van een hostingpartij voor de website en een e-mailprovider. Deze partijen verwerken alleen de gegevens die nodig zijn voor hun dienstverlening. Worden persoonsgegevens buiten de Europese Economische Ruimte verwerkt, dan zorgen we dat daarvoor passende wettelijke waarborgen gelden."),
+    ("Cookies", "De website gebruikt geen tracking- of advertentiecookies en toont daarom geen cookiemelding. Functionele technieken worden alleen gebruikt als ze nodig zijn om de website goed te laten werken, zoals het tijdelijk onthouden van een paginaovergang tijdens je bezoek."),
+    ("Rechten", "Je hebt het recht om je persoonsgegevens in te zien, te laten corrigeren of, als dat mogelijk is, te laten verwijderen. Ook kun je in bepaalde gevallen bezwaar maken tegen de verwerking of vragen om die tijdelijk te beperken. Wil je gebruikmaken van je privacyrechten? Neem dan contact op via <a href=\"mailto:" + EMAIL + "\">" + EMAIL + "</a>. Je hebt daarnaast het recht om een klacht in te dienen bij de Autoriteit Persoonsgegevens."),
 ]
 priv_html = "".join(f'<div style="display: flex; flex-wrap: wrap; gap: 12px 64px; padding-block: 36px; border-top: 1px solid rgba(12,12,10,.12)"><h2 class="h3" style="flex: 0 0 280px; font-size: 26px">{t}</h2><p class="body" style="flex: 1 1 380px; font-size: 17px; color: #5A5650">{d}</p></div>' for t, d in priv_items)
 privacy = head(f"{FULL} – Privacyverklaring", f"Hoe {FULL} omgaat met je gegevens.") + nav("privacy.html") + f'''
@@ -1090,6 +1092,9 @@ for name, html in FINISHED.items():
     if name in HIDDEN:
         continue
     html = cms.apply(name, html, CONSTS, HIDDEN)
+    if CF_BEACON_TOKEN and name != "over-mij.html":
+        # Cloudflare Web Analytics: geen cookies/opslag, type=module laadt uitgesteld (blokkeert de pagina niet)
+        html = html.replace("</body>", '<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon=\'{"token": "' + CF_BEACON_TOKEN + '", "spa": false}\'></script>\n</body>', 1)
     with open(f"{OUT}/{name}", "w", encoding="utf-8") as fh:
         fh.write(html)
 _up = os.path.join(ROOT, "assets", "img", "uploads")

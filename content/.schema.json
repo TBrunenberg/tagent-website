@@ -3290,9 +3290,9 @@
      true
     ],
     [
-     "t_546aea9a49",
+     "t_c76c077e58",
      "text",
-     "Tagent is opgericht door Tygo Brunenberg. Hij studeert Ond…",
+     "Ik ben Tygo Brunenberg. Ik studeer Ondernemerschap & Retai…",
      true
     ],
     [
@@ -3361,9 +3361,9 @@
      true
     ],
     [
-     "t_499eb203d8",
+     "t_d7efa6d22c",
      "text",
-     "Een kort gesprek over het bedrijf, met eerlijk advies over…",
+     "Genoeg over ons, hoe ziet jouw website eruit?",
      true
     ],
     [
@@ -3644,10 +3644,16 @@
      true
     ],
     [
-     "t_0818db7e1e",
+     "t_7e21df2131",
      "text",
      "Tagent ontwerpt, bouwt en beheert websites voor ondernemer…",
-     true
+     false
+    ],
+    [
+     "t_6501a000c8",
+     "text",
+     ".",
+     false
     ],
     [
      "t_071f60ce1e",
@@ -3656,9 +3662,9 @@
      true
     ],
     [
-     "t_e7472c9180",
+     "t_d76c4eab5f",
      "text",
-     "Bij een aanvraag via het kennismakingsformulier: naam, tel…",
+     "Bij een aanvraag via het kennismakingsformulier verwerken …",
      true
     ],
     [
@@ -3668,9 +3674,9 @@
      true
     ],
     [
-     "t_e553c21f74",
+     "t_0a153f1b60",
      "text",
-     "Alleen om contact op te nemen over de aanvraag en, bij een…",
+     "Persoonsgegevens worden alleen gebruikt om contact op te n…",
      true
     ],
     [
@@ -3680,9 +3686,9 @@
      true
     ],
     [
-     "t_cdae67ca0f",
+     "t_65925d82ef",
      "text",
-     "Het verwerken gebeurt op basis van de aanvraag zelf (het v…",
+     "Persoonsgegevens worden verwerkt als dat nodig is om op jo…",
      true
     ],
     [
@@ -3692,9 +3698,33 @@
      true
     ],
     [
-     "t_72a1f6234d",
+     "t_53f80c0358",
      "text",
-     "Aanvragen zonder samenwerking worden na 12 maanden verwijd…",
+     "Aanvragen waarbij geen samenwerking ontstaat, worden na ma…",
+     true
+    ],
+    [
+     "t_670b879240",
+     "text",
+     "Kennismakingsformulier",
+     true
+    ],
+    [
+     "t_c290d76622",
+     "text",
+     "Het formulier wordt verstuurd via Web3Forms (Web3Creative,…",
+     true
+    ],
+    [
+     "t_72057126f3",
+     "text",
+     "Bezoekersstatistieken",
+     true
+    ],
+    [
+     "t_b7efa2e5e5",
+     "text",
+     "We gebruiken Cloudflare Web Analytics om te zien hoe vaak …",
      true
     ],
     [
@@ -3704,9 +3734,9 @@
      true
     ],
     [
-     "t_e168875607",
+     "t_a2edeb6b57",
      "text",
-     "Gegevens worden niet verkocht. Het formulier wordt verstuu…",
+     "Persoonsgegevens worden niet verkocht of gedeeld voor comm…",
      true
     ],
     [
@@ -3716,21 +3746,9 @@
      true
     ],
     [
-     "t_1944db2c06",
+     "t_03bc2f0aaf",
      "text",
      "De website gebruikt geen tracking- of advertentiecookies e…",
-     true
-    ],
-    [
-     "t_cf142249fa",
-     "text",
-     "Lettertypes",
-     true
-    ],
-    [
-     "t_ab5452780d",
-     "text",
-     "De lettertypes worden vanaf de eigen website geladen. Daar…",
      true
     ],
     [
@@ -3740,10 +3758,16 @@
      true
     ],
     [
-     "t_ce4c81bcb8",
+     "t_d6f1421f66",
      "text",
-     "Gegevens zijn altijd in te zien, aan te passen of te laten…",
-     true
+     "Je hebt het recht om je persoonsgegevens in te zien, te la…",
+     false
+    ],
+    [
+     "t_ebe9a15211",
+     "text",
+     ". Je hebt daarnaast het recht om een klacht in te dienen b…",
+     false
     ]
    ]
   }

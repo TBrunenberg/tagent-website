@@ -1,4 +1,4 @@
-# TAGENT – Projectcontext
+# Tagent – Projectcontext
 
 Vaste referentie om de website efficiënt aan te passen zonder alles opnieuw te analyseren.
 Laatst bijgewerkt: 22 november 2026.
@@ -74,3 +74,6 @@ Laatst bijgewerkt: 22 november 2026.
 
 ## Projectstatus
 Zie `VOORTGANG.md`.
+
+## Bezoekersstatistieken
+Cloudflare Web Analytics (gratis, zonder proxy, geen cookies, IP niet opgeslagen). Script via `CF_BEACON_TOKEN` in build.py op alle publieke pagina's, niet in /admin. Details, gegevens en handleiding: docs/CLOUDFLARE_ANALYTICS.md.

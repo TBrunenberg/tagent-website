@@ -24,3 +24,9 @@ Compacte stand van zaken, zodat een volgende sessie direct verder kan. Lees eers
 ## Aandachtspunten
 - Aanspreekvorm: kernzin gebruikt "uw", diensten-CTA "jou"; rest neutraal. Bewuste keuze van Tygo.
 - Na livegang is `content/` van de klant (ook bij de eigen site): nooit standaardinhoud terugschrijven.
+
+## Cloudflare Web Analytics (22-11)
+- [x] Code voorbereid, privacyverklaring bijgewerkt, handleiding in docs/CLOUDFLARE_ANALYTICS.md
+- [ ] Tygo: site tagent.nl toevoegen in Cloudflare Web Analytics en token doorsturen
+- [ ] Token invullen en publiceren
+- [ ] Na livegang tagent.nl: eerste bezoek controleren in Cloudflare

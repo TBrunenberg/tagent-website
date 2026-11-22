@@ -1,4 +1,4 @@
-# TAGENT – Brand guidelines
+# Tagent – Brand guidelines
 
 Vaste referentie voor alle Tagent-opdrachten: website, beheerscherm, Instagram en documenten.
 Laatst bijgewerkt: 22 november 2026.

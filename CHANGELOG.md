@@ -1,5 +1,12 @@
 # CHANGELOG – Tagent website
 
+## 2026-11-22 (middag)
+- Diensten (en andere subpagina's): losse lijn onder de header weg; achtergrond van de header loopt nu vloeiend over in zwart.
+- Over ons: alinea "Achter Tagent" in de ik-vorm; tekst onder "Laten we kennismaken" wordt "Genoeg over ons, hoe ziet *jouw* website eruit?".
+- Privacyverklaring herschreven: verantwoordelijke Tygo Brunenberg (handelsnaam Tagent), Web3Forms met naam en verwerking, Cloudflare Web Analytics, geen telefoonnummer, geen alinea over lettertypes en geen hostingtechniek.
+- Cloudflare Web Analytics voorbereid (`CF_BEACON_TOKEN` in build.py; script verschijnt zodra het token is ingevuld). Zie docs/CLOUDFLARE_ANALYTICS.md.
+- Overal "Tagent" gespeld in plaats van "TAGENT".
+
 ## 2026-11-22 · Batch A – feedback Tygo verwerkt
 Backup vooraf: `backup/tagent-website-backup-2026-11-22.zip`.
 

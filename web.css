@@ -101,3 +101,6 @@
 .phone .ms-row{flex-wrap:wrap}
 .pill{white-space:nowrap}
 @media (max-width:760px){.s4-scrib{bottom:-44px!important;left:0!important}}
+
+.svc:first-child{border-top:0}
+.scrim-fade{background:linear-gradient(180deg,rgba(12,12,10,.25) 0%,rgba(12,12,10,0) 30%,rgba(12,12,10,.2) 55%,rgba(12,12,10,.85) 82%,#0C0C0A 100%)}
