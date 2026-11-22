@@ -12,9 +12,9 @@ Compacte stand van zaken, zodat een volgende sessie direct verder kan. Lees eers
 
 ## Open
 - [ ] **Web3Forms-sleutel** (Tygo, zodra info@tagent.nl werkt) → `WEB3FORMS_KEY` in build.py, daarna formulier live testen.
-- [x] GitHub-repo TBrunenberg/tagent-website + GitHub Pages (Actions); custom domain tagent.nl ingesteld in GitHub.
+- [x] GitHub-repo TBrunenberg/tagent-website + GitHub Pages (Actions). Tijdelijk adres: https://tbrunenberg.github.io/tagent-website/ (custom domain tijdelijk verwijderd tot tagent.nl actief is).
 - [x] Beheerscherm (Decap CMS) met alle teksten, foto's, plaatsing, pagina's verbergen, SEO; proefversie /admin/demo; identiek-check + wijzigtest geslaagd.
-- [ ] DNS bij Strato (Tygo) → daarna HTTPS afdwingen in GitHub Pages.
+- [ ] Zodra tagent.nl actief is (± 22-11 20:00): DNS bij Strato (Tygo), daarna in GitHub → Settings → Pages custom domain tagent.nl opnieuw invullen en HTTPS afdwingen; daarna PageSpeed Insights + Search Console.
 - [ ] DecapBridge-site aanmaken (Tygo) + GitHub-token → identity/gateway-URL in build.py → inlog- en opslagtest.
 - [x] Instagram bijgewerkt in de editor + `TAGENT_INSTAGRAM_UPDATE_BRIEF.md`.
 - [ ] **PageSpeed Insights** op de live site (home en diensten konden lokaal niet volledig gemeten worden).
