@@ -1,0 +1,103 @@
+/* Werknaam — aanvulling op de Kader-basis (site.css blijft ongewijzigd) */
+.logo-mark.lm::before{content:"";position:absolute;left:0;right:0;top:5px;height:1.5px;background:currentColor}
+
+/* browservenster */
+.bw-top{display:flex;align-items:center;gap:7px;padding:10px 14px;border-bottom:1px solid var(--line)}
+.bw-url{margin-left:8px;flex:1;min-width:0;max-width:230px;padding:4px 11px;border-radius:999px;background:rgba(238,234,227,.07);font-size:11px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bw-url b{font-weight:500;color:var(--bone)}
+
+/* mini-site in een venster */
+.ms{background:var(--paper);color:var(--ink);padding:14px 16px 16px;display:flex;flex-direction:column;gap:11px;text-align:left}
+.ms-nav{display:flex;justify-content:space-between;align-items:center;font-size:10.5px;font-weight:600;letter-spacing:-.02em}
+.ms-nav span:last-child{display:flex;gap:6px}
+.ms-nav i{display:block;width:20px;height:4px;border-radius:2px;background:rgba(12,12,10,.22)}
+.ms-title{font-size:25px;font-weight:500;letter-spacing:-.045em;line-height:.98}
+.ms-img{position:relative;border-radius:10px;height:92px;overflow:hidden;background:#1E1D1A}
+.ms-img img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.ms-row{display:flex;gap:6px;align-items:center}
+.ms-btn{display:inline-flex;align-items:center;padding:6px 11px;border-radius:999px;background:var(--ink);color:var(--bone);font-size:10px;font-weight:500}
+.ms-btn.ghost{background:transparent;color:var(--ink);box-shadow:inset 0 0 0 1px rgba(12,12,10,.25)}
+.ms-line{height:6px;border-radius:3px;background:rgba(12,12,10,.1)}
+
+/* verouderde site */
+.old{background:#E4E4E1;color:#222;font-family:"Times New Roman",Times,serif;font-size:11.5px;line-height:1.35;text-align:left}
+.old-hd{background:#36508A;color:#fff;font-family:Arial,sans-serif;font-weight:700;font-size:13px;padding:8px 10px}
+.old-nav{display:flex;gap:10px;padding:6px 10px;background:#cfcfcb;font-family:Arial,sans-serif;font-size:10.5px}
+.old-nav span{color:#1a0dab;text-decoration:underline}
+.old-body{display:grid;grid-template-columns:96px minmax(0,1fr);gap:10px;padding:10px}
+.old-side{background:#d4d4cf;padding:6px;display:flex;flex-direction:column;gap:4px;font-size:10px}
+.old-side span{color:#1a0dab;text-decoration:underline}
+.old-ph{height:58px;background:repeating-linear-gradient(45deg,#c9c9c4 0 6px,#d6d6d1 6px 12px);border:1px solid #aaa;display:flex;align-items:center;justify-content:center;font-family:Arial,sans-serif;font-size:9px;color:#666}
+
+/* telefoon */
+.phone{width:142px;padding:7px;border-radius:26px;background:#141412;border:1px solid rgba(238,234,227,.22);box-shadow:0 50px 100px -30px rgba(0,0,0,.85)}
+.phone-in{border-radius:20px;overflow:hidden}
+.phone .ms{padding:12px 11px 13px;gap:9px}
+.phone .ms-title{font-size:19px}
+.phone .ms-img{height:70px}
+
+/* opmerkingen-pins */
+.pin{position:absolute;z-index:3;display:inline-flex;align-items:center;gap:8px;padding:5px 12px 5px 5px;border-radius:999px 999px 999px 6px;background:var(--bone);color:var(--ink);font-size:11.5px;font-weight:500;white-space:nowrap;box-shadow:0 20px 40px -12px rgba(0,0,0,.6)}
+.pin b{width:20px;height:20px;border-radius:50%;background:var(--ember);color:var(--ink);display:inline-flex;align-items:center;justify-content:center;font-size:10.5px;font-weight:600}
+
+/* beheerscherm */
+.adm{display:grid;grid-template-columns:150px minmax(0,1fr);text-align:left}
+.adm-side{padding:12px 10px;border-right:1px solid var(--line);display:flex;flex-direction:column;gap:3px}
+.adm-side > span{font-size:10.5px;color:var(--muted);padding:2px 6px 6px}
+.adm-pg{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:6px 6px;border-radius:7px;font-size:11.5px;color:rgba(238,234,227,.8)}
+.adm-pg.on{background:rgba(238,234,227,.07);color:var(--bone)}
+.adm-pg .toggle{transform:scale(.8);transform-origin:right}
+.adm-main{padding:16px;display:flex;flex-direction:column;gap:13px}
+.adm-f{display:flex;flex-direction:column;gap:6px}
+.adm-f > span:first-child{font-size:10.5px;color:var(--muted)}
+.adm-in{padding:9px 11px;border-radius:9px;border:1px solid var(--line-2);font-size:12.5px;display:flex;gap:8px;align-items:center;flex-wrap:wrap;min-height:38px}
+
+/* hero-venster */
+.hero-site{position:absolute;right:clamp(20px,5vw,80px);top:0;bottom:0;width:min(430px,33%);display:flex;flex-direction:column;justify-content:center;pointer-events:none}
+@media (max-width:1060px){.hero-site{display:none}}
+
+/* veelgestelde vragen */
+.faq{border-top:1px solid var(--line)}
+.faq summary{list-style:none;display:flex;align-items:center;gap:16px;min-height:72px;padding:20px 4px;cursor:pointer;font-size:clamp(19px,1.7vw,24px);letter-spacing:-.02em;transition:padding .6s var(--ease)}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary:hover{padding-left:12px}
+.faq summary .plus{margin-left:auto}
+.faq[open] summary .plus::after{transform:rotate(0)}
+.faq p{margin:0;padding:0 4px 28px;max-width:44rem;font-size:16.5px;line-height:1.6;color:var(--muted)}
+.faq[open] p{animation:fadeUp .8s var(--ease) both}
+
+/* dienstrijen */
+.svc{display:flex;flex-wrap:wrap;gap:48px 80px;align-items:center;padding-block:120px;border-top:1px solid var(--line)}
+.svc-txt{flex:1 1 380px;min-width:0;display:flex;flex-direction:column;gap:22px}
+.svc-vis{flex:1 1 460px;min-width:0;position:relative;height:440px;border-radius:28px;overflow:hidden;background:var(--ink-2);display:flex;align-items:center;justify-content:center;padding:28px}
+.svc-vis > img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.5}
+.ticks{display:flex;flex-direction:column;margin:0;padding:0;list-style:none}
+.ticks li{display:flex;gap:14px;align-items:baseline;padding:13px 0;border-top:1px solid var(--line);font-size:16px;line-height:1.5}
+.ticks li::before{content:"";flex:none;width:7px;height:7px;border-radius:2px;background:var(--ember);transform:translateY(-2px)}
+.light .ticks li{border-color:rgba(12,12,10,.12)}
+
+@media (max-width:760px){
+  .adm{grid-template-columns:1fr}
+  .adm-side{border-right:0;border-bottom:1px solid var(--line)}
+  .svc-vis{height:auto;min-height:380px}
+}
+.light .faq p{color:var(--muted-dark)}
+.nav-link{white-space:nowrap}
+@media (max-width:760px){
+  .band-old{width:80%!important;left:5%!important;top:5%!important}
+  .band-new{width:74%!important;right:5%!important;bottom:4%!important}
+  .band-arrow{display:none}
+  .band{height:880px!important}
+}
+
+.display.hero-h{font-size:clamp(46px,6.4vw,112px)}
+.h1.hero-h{font-size:clamp(44px,5.4vw,92px)}
+@media (min-width:1061px){.hero-h{max-width:56%}.hero-h + .lead{max-width:min(34rem,52%)!important}}
+@keyframes hscroll2{from{transform:translateX(0)}to{transform:translateX(var(--hs-end,0px))}}
+@supports (animation-timeline: view()){
+  .hs-section{height:2500px}
+  .hs-track{animation-name:hscroll2;animation-range:contain 0% contain 92%}
+}
+.phone .ms-row{flex-wrap:wrap}
+.pill{white-space:nowrap}
+@media (max-width:760px){.s4-scrib{bottom:-44px!important;left:0!important}}
