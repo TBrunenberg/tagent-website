@@ -33,6 +33,11 @@ header,[class*="AppHeaderContainer"],[class*="AppHeader"]{background:var(--ink)!
 [class*="ControlContainer"] label,[class*="FieldLabel"]{color:var(--muted)!important}
 [class*="ObjectControl"] [class*="TopBar"],[class*="ListItemTopBar"]{background:#ECE8E1!important}
 /* inlogscherm */
+[class*="StyledAuthenticationPage"]{background:var(--ink)!important;background-image:radial-gradient(70% 55% at 50% 110%,rgba(255,106,43,.28),transparent 65%)!important}
+[class*="PageLogoIcon"]{width:120px!important;height:120px!important;background:url(../assets/logo-512.png) center/contain no-repeat;border-radius:28px}
+[class*="PageLogoIcon"] svg{display:none!important}
+[class*="StyledAuthenticationPage"] button{background:var(--ember)!important;color:var(--ink)!important;border-radius:999px!important;font-weight:500!important}
+[class*="StyledAuthenticationPage"] a{color:rgba(238,234,227,.7)!important}
 [class*="LoginPage"],section[class*="LoginPage"]{background:var(--ink)!important}
 [class*="LoginPage"] button{background:var(--ember)!important;color:var(--ink)!important;border-radius:999px!important;font-weight:500!important}
 """
@@ -85,6 +90,7 @@ def write(out, site_url, repo, identity_url, gateway_url):
                                    "delete": "Verwijderd: {{collection}} {{slug}}", "uploadMedia": "Foto toegevoegd: {{path}}", "deleteMedia": "Foto verwijderd: {{path}}"}}
     cfg = cms.decap_config(site_url, repo, backend)
     cfg["logo_url"] = "../assets/logo-512.png"
+    cfg["logo"] = {"src": "../assets/logo-512.png", "show_in_header": True}
     with open(os.path.join(adm, "config.yml"), "w", encoding="utf-8") as fh:
         fh.write("# Gegenereerd door build.py (admin.py). Niet met de hand aanpassen.\n")
         yaml.safe_dump(cfg, fh, allow_unicode=True, sort_keys=False, width=10000)
@@ -97,6 +103,7 @@ def write(out, site_url, repo, identity_url, gateway_url):
     demo["load_config_file"] = False
     demo["site_url"] = demo["display_url"] = site_url
     demo["logo_url"] = "../../assets/logo-512.png"
+    demo["logo"] = {"src": "../../assets/logo-512.png", "show_in_header": True}
     bar = ('<div style="position:fixed;left:50%;bottom:16px;transform:translateX(-50%);z-index:99999;padding:10px 18px;border-radius:999px;'
            'background:#0C0C0A;color:#EEEAE3;font:500 14px Geist,system-ui,sans-serif;box-shadow:0 10px 30px -10px rgba(0,0,0,.5)">'
            'Proefversie: niets wordt opgeslagen</div>')
