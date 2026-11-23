@@ -23,7 +23,7 @@ _digits = _re0.sub(r"\D", "", TEL.replace("(0)", ""))
 TEL_HREF = "tel:+" + (_digits if not _digits.startswith("0") else "31" + _digits[1:])
 CONSTS = {"email": EMAIL, "telefoon": TEL}
 # Login van het beheerscherm (DecapBridge). Overnemen uit het DecapBridge-dashboard.
-DECAP_IDENTITY_URL = "https://auth.decapbridge.com/sites/VUL-IN-SITE-ID"
+DECAP_IDENTITY_URL = "https://auth.decapbridge.com/sites/34c9e328-08bc-4ef8-8c06-52c5379f47e5"
 DECAP_GATEWAY_URL = "https://gateway.decapbridge.com"
 DECAP_REPO = "TBrunenberg/tagent-website"
 CF_BEACON_TOKEN = "b77a92f44194496d83519bd35d848ebf"  # sitetoken van Cloudflare Web Analytics (site tagent.nl); leeg = geen statistieken. Geen geheim: staat altijd zichtbaar in de pagina.
