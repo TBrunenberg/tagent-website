@@ -37,6 +37,7 @@ Compacte stand van zaken, zodat een volgende sessie direct verder kan. Lees eers
 - [x] Alle pagina's, admin, sitemap, robots, llms.txt 200; 404 werkt; www → tagent.nl
 - [x] Cloudflare Web Analytics telt bezoeken
 - [x] Web3Forms-formulier werkt; DecapBridge gekoppeld
-- [ ] DecapBridge login-URL → https://tagent.nl/admin/index.html
+- [x] DecapBridge login-URL → https://tagent.nl/admin/index.html
 - [ ] Web3Forms domeinbeperking op tagent.nl
-- [ ] Search Console + sitemap, PageSpeed live
+- [x] Search Console (URL-voorvoegsel, HTML-bestand) + sitemap ingediend (6 pagina's, succesvol)
+- [ ] PageSpeed live
