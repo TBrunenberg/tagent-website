@@ -74,6 +74,7 @@ html.tr-in .tr.is-leave .tr-mark{{opacity:0;transform:translateY(-24px);transiti
 html.tr-in .tr{{animation:trsafe .85s cubic-bezier(.76,0,.24,1) 4s forwards}}
 @keyframes trsafe{{to{{transform:translateY(100%);visibility:hidden}}}}
 html.tr-hold #dc-root *{{animation-play-state:paused!important}}
+html:not(.go) .kb,html:not(.go) .kb-2{{animation:none}}
 @media (prefers-reduced-motion: reduce){{.tr{{display:none}}}}
 .skip{{position:fixed;left:16px;top:-80px;z-index:100;padding:10px 18px;border-radius:999px;background:#EEEAE3;color:#0C0C0A;font:500 14px Geist,system-ui,sans-serif;text-decoration:none;transition:top .2s}}.skip:focus{{top:16px}}
 body{{margin:0}}
@@ -178,6 +179,7 @@ def tail(logic_body="", height=6000):
 {logic}
 </script>
 <script src="assets/runtime.js"></script>
+<script>(function(){{var d=document.documentElement,f=function(){{d.classList.add('go')}};if(document.readyState==='complete')setTimeout(f,300);else addEventListener('load',function(){{setTimeout(f,300)}})}})();</script>
 <script>
 (function () {{
   var tr = document.getElementById('tr'), de = document.documentElement;
@@ -1066,7 +1068,11 @@ def finish(name, html):
         html = html[:m.start(1)] + html[m.end(1):]
         html = html.replace('<div id="dc-root"><!--PRE--></div>', '<div id="dc-root" data-static>' + tpl + '</div>')
     html = html.replace("<body>\n", '<body>\n<a class="skip" href="#inhoud">Naar de inhoud</a>\n<div class="tr" id="tr" aria-hidden="true"><div class="tr-mark">' + ICON_D.format(s=52) + '<span class="tr-name"><span>' + BRAND + '</span></span></div></div>\n', 1)
-    return html.replace("<!--SEO-->", seo_block(name, html))
+    blk = seo_block(name, html)
+    # JSON-LD onderaan de body: in de <head> hield het (met de rest van de head) de eerste paint tegen in Lighthouse/PageSpeed (NO_FCP)
+    i = blk.find('<script type="application/ld+json">')
+    meta, ld = blk[:i], blk[i:]
+    return html.replace("<!--SEO-->", meta).replace("</body>", ld + "\n</body>", 1)
 
 pages["404.html"] = head(f"{FULL} – Pagina niet gevonden", "Deze pagina bestaat niet (meer). Ga terug naar de homepage van Tagent.") + nav("") + f"""
 <section class="wrap" style="padding-block: 160px; min-height: 60svh; display: flex; flex-direction: column; gap: 28px; justify-content: center">

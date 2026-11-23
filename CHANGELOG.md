@@ -1,6 +1,8 @@
 # CHANGELOG – Tagent website
 
 ## 2026-11-23
+- Live gezet op tagent.nl (HTTPS, www-doorverwijzing), DecapBridge-login op tagent.nl/admin, Search Console geverifieerd + sitemap.
+- PageSpeed gaf NO_FCP (geen eerste weergave gemeten): bewegende achtergrondfoto's (Ken Burns) starten nu pas na het laden en de JSON-LD staat onderaan de pagina. Lighthouse lokaal: 96–98 prestaties, 100 toegankelijkheid, 96 praktisch, 100 SEO.
 - Kennismakingsformulier gekoppeld aan Web3Forms (aanvragen komen per mail binnen; mailto-terugval niet meer nodig).
 
 ## 2026-11-22 (middag)
