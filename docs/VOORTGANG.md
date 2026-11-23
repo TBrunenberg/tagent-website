@@ -19,7 +19,7 @@ Compacte stand van zaken, zodat een volgende sessie direct verder kan. Lees eers
 - [x] Instagram bijgewerkt in de editor + `TAGENT_INSTAGRAM_UPDATE_BRIEF.md`.
 - [x] **PageSpeed Insights** op de live site (NO_FCP opgelost 23-11; lokaal 96–98) (home en diensten konden lokaal niet volledig gemeten worden).
 - [x] Google Search Console: domein verifiëren, sitemap indienen.
-- [ ] Projectdocument `claude/werkwijze-websites.md` bijwerken (Tagent i.p.v. Koppl/Werknaam).
+- [x] Projectdocument `claude/werkwijze-websites.md` bijgewerkt (23-11)
 
 ## Aandachtspunten
 - Aanspreekvorm: kernzin gebruikt "uw", diensten-CTA "jou"; rest neutraal. Bewuste keuze van Tygo.
@@ -46,5 +46,5 @@ Compacte stand van zaken, zodat een volgende sessie direct verder kan. Lees eers
 - [ ] Inlog- en opslagtest beheerscherm op tagent.nl/admin (Tygo logt in met DecapBridge-wachtwoord)
 - [ ] Eén live PageSpeed-meting na de fix (Chrome was niet bereikbaar)
 - [ ] Google Bedrijfsprofiel aanmaken (omschrijving staat klaar in de chat)
-- [ ] Projectdocument werkwijze-websites.md bijwerken
+- [x] Projectdocument werkwijze-websites.md bijgewerkt
 - [ ] Lokale map Tagent Webdesign bijwerken met de laatste versie (website + docs)
