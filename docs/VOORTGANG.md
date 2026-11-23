@@ -30,3 +30,13 @@ Compacte stand van zaken, zodat een volgende sessie direct verder kan. Lees eers
 - [x] Site tagent.nl in Cloudflare (aangemaakt door Tygo), token opgehaald
 - [x] Token ingevuld en gepubliceerd
 - [ ] Na livegang tagent.nl: eerste bezoek controleren in Cloudflare
+
+## Livegang (23-11)
+- [x] DNS bij Strato (A, AAAA, CNAME www; MX ongewijzigd)
+- [x] Custom domain tagent.nl in GitHub Pages, DNS-check geslaagd, Enforce HTTPS aan
+- [x] Alle pagina's, admin, sitemap, robots, llms.txt 200; 404 werkt; www → tagent.nl
+- [x] Cloudflare Web Analytics telt bezoeken
+- [x] Web3Forms-formulier werkt; DecapBridge gekoppeld
+- [ ] DecapBridge login-URL → https://tagent.nl/admin/index.html
+- [ ] Web3Forms domeinbeperking op tagent.nl
+- [ ] Search Console + sitemap, PageSpeed live
