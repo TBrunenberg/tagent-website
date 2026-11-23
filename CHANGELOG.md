@@ -1,5 +1,8 @@
 # CHANGELOG – Tagent website
 
+## 2026-11-23
+- Kennismakingsformulier gekoppeld aan Web3Forms (aanvragen komen per mail binnen; mailto-terugval niet meer nodig).
+
 ## 2026-11-22 (middag)
 - Diensten (en andere subpagina's): losse lijn onder de header weg; achtergrond van de header loopt nu vloeiend over in zwart.
 - Over ons: alinea "Achter Tagent" in de ik-vorm; tekst onder "Laten we kennismaken" wordt "Genoeg over ons, hoe ziet *jouw* website eruit?".
