@@ -1120,6 +1120,10 @@ PRIO = {"index.html": "1.0", "diensten.html": "0.9", "werkwijze.html": "0.8", "o
 with open(f"{OUT}/sitemap.xml", "w", encoding="utf-8") as fh:
     fh.write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
              "".join(f"  <url><loc>{url_of(n)}</loc><lastmod>{LASTMOD}</lastmod><priority>{PRIO[n]}</priority></url>\n" for n in INDEX) + "</urlset>\n")
+# Google Search Console-verificatie (URL-voorvoegsel https://tagent.nl/); laten staan, anders vervalt de verificatie
+GSC_FILE = "google4afa87d3d6a07e0e.html"
+with open(f"{OUT}/{GSC_FILE}", "w", encoding="utf-8") as fh:
+    fh.write(f"google-site-verification: {GSC_FILE}")
 with open(f"{OUT}/robots.txt", "w", encoding="utf-8") as fh:
     fh.write(f"User-agent: *\nAllow: /\nDisallow: /admin/\n\nSitemap: {SITE}/sitemap.xml\n")
 with open(f"{OUT}/CNAME", "w") as fh:
