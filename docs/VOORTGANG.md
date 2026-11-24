@@ -44,7 +44,7 @@ Compacte stand van zaken, zodat een volgende sessie direct verder kan. Lees eers
 
 ## Nog open (23-11)
 - [ ] Inlog- en opslagtest beheerscherm op tagent.nl/admin (Tygo logt in met DecapBridge-wachtwoord)
-- [ ] Eén live PageSpeed-meting na de fix (Chrome was niet bereikbaar)
-- [ ] Google Bedrijfsprofiel aanmaken (omschrijving staat klaar in de chat)
+- [x] PageSpeed live (24-11): desktop 100/100/100/100 (home en privacy). Mobiel geeft in PageSpeed nog NO_FCP (labmeting); Googlebot (Search Console live test, mobiel) geeft de pagina wel goed weer en home is al geïndexeerd
+- [x] Google Bedrijfsprofiel aangemaakt (24-11, in behandeling bij Google)
 - [x] Projectdocument werkwijze-websites.md bijgewerkt
-- [ ] Lokale map Tagent Webdesign bijwerken met de laatste versie (website + docs)
+- [x] Lokale map Tagent Webdesign bijgewerkt (24-11)
